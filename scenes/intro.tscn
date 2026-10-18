@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://bwelsy2f1uqsj"]
+
+[ext_resource type="Script" uid="uid://b2fcj0tp6kb3" path="res://scripts/intro.gd" id="1_s2ta7"]
+[ext_resource type="VideoStream" uid="uid://drfrqlgp16wy0" path="res://assets/cut_scenes/intro.ogv.ogv" id="2_ayt76"]
+[ext_resource type="AudioStream" uid="uid://bg7v3mn6go3jr" path="res://assets/sounds/Garden.ogg" id="3_4bx60"]
+
+[node name="Intro" type="Control" unique_id=1868170662]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_s2ta7")
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="." unique_id=1587225923]
+layout_mode = 0
+offset_right = 1151.0
+offset_bottom = 650.0
+stream = ExtResource("2_ayt76")
+autoplay = true
+expand = true
+
+[node name="Garden" type="AudioStreamPlayer" parent="." unique_id=752824267]
+stream = ExtResource("3_4bx60")
+autoplay = true
+parameters/looping = true
+
+[connection signal="finished" from="VideoStreamPlayer" to="." method="_on_video_stream_player_finished"]

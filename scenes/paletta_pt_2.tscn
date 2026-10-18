@@ -1,0 +1,765 @@
+[gd_scene format=3 uid="uid://dmf0jkr4sa86a"]
+
+[ext_resource type="Script" uid="uid://byiqrri1abqqc" path="res://scripts/paletta_pt_2.gd" id="1_5gu3u"]
+[ext_resource type="Texture2D" uid="uid://bsnbqea8wc315" path="res://assets/wood_simple.jpg" id="2_lp7si"]
+[ext_resource type="Texture2D" uid="uid://cb4krijcdb7ow" path="res://assets/mango_shrikand/Empty_bowl.png" id="3_ik3i6"]
+[ext_resource type="Texture2D" uid="uid://ca1c14bg3daig" path="res://assets/paletta/minced_ginger.png" id="4_5esjy"]
+[ext_resource type="Texture2D" uid="uid://dn4es0c7b32x1" path="res://assets/paletta/small_ginger.png" id="5_dgyvd"]
+[ext_resource type="Texture2D" uid="uid://bpar52pvvlcw8" path="res://assets/tomato_shak/ingredients/Mince_garlic.png" id="6_2kjvb"]
+[ext_resource type="Texture2D" uid="uid://qr4i8inbjvrb" path="res://assets/tomato_shak/ingredients/small_garlic.png" id="7_pmxmc"]
+[ext_resource type="Texture2D" uid="uid://cg17vselarxhe" path="res://assets/paletta/garam_masala.png" id="8_ymik2"]
+[ext_resource type="Texture2D" uid="uid://dxbrvufplv7bo" path="res://assets/paletta/small_garam_masala.png" id="9_2us8f"]
+[ext_resource type="Texture2D" uid="uid://c4ed7kukpkkve" path="res://assets/tomato_shak/ingredients/empty_tomato.png" id="10_pmxmc"]
+[ext_resource type="Texture2D" uid="uid://c8vb2gdbtthti" path="res://assets/paletta/water.png" id="11_ymik2"]
+[ext_resource type="Texture2D" uid="uid://cpabpqhkj73t3" path="res://assets/paletta/chickpea_flour.png" id="13_2us8f"]
+[ext_resource type="Script" uid="uid://c0dai4s05q4ux" path="res://scripts/veg.gd" id="14_5gu3u"]
+[ext_resource type="Texture2D" uid="uid://cvmpengagg7s2" path="res://assets/tomato_shak/ingredients/Green_chilli.png" id="14_opp1t"]
+[ext_resource type="Texture2D" uid="uid://bgmgllt8ncyoe" path="res://assets/tomato_shak/ingredients/Salt.png" id="15_x7nba"]
+[ext_resource type="Texture2D" uid="uid://cq6gla45vxycv" path="res://assets/tomato_shak/ingredients/small_salt.png" id="16_14our"]
+[ext_resource type="Script" uid="uid://msjcufooto4u" path="res://scripts/water.gd" id="17_ik3i6"]
+[ext_resource type="Texture2D" uid="uid://bl7o1ydgjsb6w" path="res://assets/tomato_shak/ingredients/Tumeric .png" id="17_plxx4"]
+[ext_resource type="Texture2D" uid="uid://bb7nvyfl18el5" path="res://assets/tomato_shak/ingredients/small_tumeric.png" id="18_j804w"]
+[ext_resource type="Script" uid="uid://qho3oipfkoy0" path="res://scripts/oil.gd" id="18_wh2n7"]
+[ext_resource type="Texture2D" uid="uid://clqsbdc6okxxj" path="res://assets/tomato_shak/ingredients/Red_chilli.png" id="19_xjrta"]
+[ext_resource type="Texture2D" uid="uid://db8w63p3p8xio" path="res://assets/tomato_shak/ingredients/small_red_chilli.png" id="20_7vqem"]
+[ext_resource type="Texture2D" uid="uid://c2jqeb6rvrjo6" path="res://assets/tomato_shak/ingredients/Dhana_jeeru.png" id="21_7vqem"]
+[ext_resource type="Texture2D" uid="uid://7afrgxi6o7ca" path="res://assets/tomato_shak/ingredients/small_dhana_jeeru.png" id="22_76r2w"]
+[ext_resource type="Texture2D" uid="uid://d15xret7rop4g" path="res://assets/tomato_shak/ingredients/back_of_oil.png" id="23_ad1um"]
+[ext_resource type="Texture2D" uid="uid://bcnp82m0d6lu8" path="res://assets/tomato_shak/ingredients/oil_spoon.png" id="24_depon"]
+[ext_resource type="Texture2D" uid="uid://c5hwu1admquys" path="res://assets/tomato_shak/ingredients/front_oil.png" id="26_4ly52"]
+[ext_resource type="Texture2D" uid="uid://dlbsv6nvux1h" path="res://assets/paletta/batter.png" id="27_ad1um"]
+[ext_resource type="Texture2D" uid="uid://b7mdwqqlvgpia" path="res://assets/paletta/veg.png" id="28_depon"]
+[ext_resource type="Texture2D" uid="uid://ofkahmvq0xpk" path="res://assets/sprite_frames/battered_veg/20260412_165917695_iOS.png" id="39_5esjy"]
+[ext_resource type="Texture2D" uid="uid://s6b5i6aeil0s" path="res://assets/sprite_frames/battered_veg/20260412_165918488_iOS.png" id="40_dgyvd"]
+[ext_resource type="Texture2D" uid="uid://bp4k5i7wop7cn" path="res://assets/Ghost.png" id="42_2kjvb"]
+[ext_resource type="Texture2D" uid="uid://3o08aq6x6w2s" path="res://assets/sprite_frames/pouring_oil/1.png" id="43_4ly52"]
+[ext_resource type="Texture2D" uid="uid://cmakpfknfxvfg" path="res://assets/sprite_frames/pouring_oil/2.png" id="44_1e2k8"]
+[ext_resource type="Texture2D" uid="uid://bvg43nkaavytr" path="res://assets/sprite_frames/pouring_oil/3.png" id="45_xwkw2"]
+[ext_resource type="Texture2D" uid="uid://dq01dlsim7ppa" path="res://assets/sprite_frames/pouring_oil/4.png" id="46_8aggb"]
+[ext_resource type="Texture2D" uid="uid://dctx33y3h1kcf" path="res://assets/buttons/recipe_book.png" id="47_depon"]
+[ext_resource type="Texture2D" uid="uid://be8ivlssmne41" path="res://assets/sprite_frames/pouring_oil/5.png" id="47_nfj6s"]
+[ext_resource type="Texture2D" uid="uid://btypoq04vkg2p" path="res://assets/sprite_frames/pouring_oil/6.png" id="48_hjsfv"]
+[ext_resource type="Texture2D" uid="uid://dhiyprenbm7kv" path="res://assets/sprite_frames/pouring_oil/7.png" id="49_1rh5d"]
+[ext_resource type="Texture2D" uid="uid://bltdb1du8edk5" path="res://assets/sprite_frames/pouring_oil/8.png" id="50_drwyx"]
+[ext_resource type="Texture2D" uid="uid://cgrmr30qtsyay" path="res://assets/sprite_frames/pouring_oil/9.png" id="51_4jby4"]
+[ext_resource type="Texture2D" uid="uid://x1g2vff4dbsa" path="res://assets/labels/garammasala.PNG" id="51_j804w"]
+[ext_resource type="Texture2D" uid="uid://bjogis3oemuqr" path="res://assets/sprite_frames/pouring_oil/10.png" id="52_w3yfc"]
+[ext_resource type="Texture2D" uid="uid://c6bjah5tk3mrn" path="res://assets/labels/salt.PNG" id="52_xjrta"]
+[ext_resource type="Texture2D" uid="uid://805cq7qowh1h" path="res://assets/sprite_frames/pouring_oil/11.png" id="53_pw8qc"]
+[ext_resource type="Texture2D" uid="uid://crhot1mkfmpwg" path="res://assets/labels/dhanajeeru.PNG" id="53_xjrta"]
+[ext_resource type="Texture2D" uid="uid://dqdw6cosis020" path="res://assets/sprite_frames/pouring_oil/12.png" id="54_4f48h"]
+[ext_resource type="Texture2D" uid="uid://cwsd36risfm1g" path="res://assets/labels/turmeric.PNG" id="54_76r2w"]
+[ext_resource type="Texture2D" uid="uid://bhdan4y30e444" path="res://assets/labels/redchilli.PNG" id="55_ad1um"]
+[ext_resource type="Texture2D" uid="uid://3j5r21722ffh" path="res://assets/sprite_frames/pouring_oil/13.png" id="55_clcyl"]
+[ext_resource type="Texture2D" uid="uid://6ld8ybwqx63j" path="res://assets/sprite_frames/pouring_oil/14.png" id="56_58vkg"]
+[ext_resource type="AudioStream" uid="uid://dg2kovon12gd5" path="res://assets/sounds/fun.ogg" id="56_depon"]
+[ext_resource type="AudioStream" uid="uid://b5fpmsktt5sew" path="res://assets/sounds/Wrongordersfx.ogg" id="57_depon"]
+[ext_resource type="Texture2D" uid="uid://dpivbnxh7fxx" path="res://assets/sprite_frames/pouring_oil/15.png" id="57_uc8km"]
+[ext_resource type="Texture2D" uid="uid://b3p3p1o7immgw" path="res://assets/sprite_frames/pouring_oil/16.png" id="58_0q1g8"]
+
+[sub_resource type="GDScript" id="GDScript_x7nba"]
+script/source = "extends Sprite2D
+
+signal drag_ended
+
+var is_dragging = false
+var drag_offset = Vector2.ZERO
+var original_position = Vector2.ZERO
+var mouse_offset # on click
+var delay = 10
+
+func _ready():
+	original_position = position
+
+		
+func _input(event):
+	if event is InputEventMouseButton:
+		if event.button_index == MOUSE_BUTTON_LEFT:
+			if event.pressed and get_rect().has_point(to_local(event.position)):
+				is_dragging = true
+				drag_offset = position - event.position
+				get_viewport().set_input_as_handled()
+			elif not event.pressed and is_dragging:
+				is_dragging = false
+				emit_signal(\"drag_ended\", position)
+	elif event is InputEventMouseMotion and is_dragging:
+		global_position = event.position + drag_offset
+"
+
+[sub_resource type="GDScript" id="GDScript_14our"]
+script/source = "extends Sprite2D
+
+signal drag_ended
+
+var is_dragging = false
+var drag_offset = Vector2.ZERO
+var original_position = Vector2.ZERO
+var mouse_offset # on click
+var delay = 10
+
+func _ready():
+	original_position = position
+
+		
+func _input(event):
+	if event is InputEventMouseButton:
+		if event.button_index == MOUSE_BUTTON_LEFT:
+			if event.pressed and get_rect().has_point(to_local(event.position)):
+				is_dragging = true
+				drag_offset = position - event.position
+				get_viewport().set_input_as_handled()
+			elif not event.pressed and is_dragging:
+				is_dragging = false
+				emit_signal(\"drag_ended\", position)
+	elif event is InputEventMouseMotion and is_dragging:
+		global_position = event.position + drag_offset
+"
+
+[sub_resource type="GDScript" id="GDScript_plxx4"]
+script/source = "extends Sprite2D
+
+signal drag_ended
+
+var is_dragging = false
+var drag_offset = Vector2.ZERO
+var original_position = Vector2.ZERO
+var mouse_offset # on click
+var delay = 10
+
+func _ready():
+	original_position = position
+
+		
+func _input(event):
+	if event is InputEventMouseButton:
+		if event.button_index == MOUSE_BUTTON_LEFT:
+			if event.pressed and get_rect().has_point(to_local(event.position)):
+				is_dragging = true
+				drag_offset = position - event.position
+				get_viewport().set_input_as_handled()
+			elif not event.pressed and is_dragging:
+				is_dragging = false
+				emit_signal(\"drag_ended\", position)
+	elif event is InputEventMouseMotion and is_dragging:
+		global_position = event.position + drag_offset
+"
+
+[sub_resource type="GDScript" id="GDScript_j804w"]
+script/source = "extends Sprite2D
+
+signal drag_ended
+
+var is_dragging = false
+var drag_offset = Vector2.ZERO
+var original_position = Vector2.ZERO
+var mouse_offset # on click
+var delay = 10
+
+func _ready():
+	original_position = position
+
+		
+func _input(event):
+	if event is InputEventMouseButton:
+		if event.button_index == MOUSE_BUTTON_LEFT:
+			if event.pressed and get_rect().has_point(to_local(event.position)):
+				is_dragging = true
+				drag_offset = position - event.position
+				get_viewport().set_input_as_handled()
+			elif not event.pressed and is_dragging:
+				is_dragging = false
+				emit_signal(\"drag_ended\", position)
+	elif event is InputEventMouseMotion and is_dragging:
+		global_position = event.position + drag_offset
+"
+
+[sub_resource type="GDScript" id="GDScript_xjrta"]
+script/source = "extends Sprite2D
+
+signal drag_ended
+
+var is_dragging = false
+var drag_offset = Vector2.ZERO
+var original_position = Vector2.ZERO
+var mouse_offset # on click
+var delay = 10
+
+func _ready():
+	original_position = position
+
+		
+func _input(event):
+	if event is InputEventMouseButton:
+		if event.button_index == MOUSE_BUTTON_LEFT:
+			if event.pressed and get_rect().has_point(to_local(event.position)):
+				is_dragging = true
+				drag_offset = position - event.position
+				get_viewport().set_input_as_handled()
+			elif not event.pressed and is_dragging:
+				is_dragging = false
+				emit_signal(\"drag_ended\", position)
+	elif event is InputEventMouseMotion and is_dragging:
+		global_position = event.position + drag_offset
+"
+
+[sub_resource type="GDScript" id="GDScript_7vqem"]
+script/source = "extends Sprite2D
+
+signal drag_ended
+
+var is_dragging = false
+var drag_offset = Vector2.ZERO
+var original_position = Vector2.ZERO
+var mouse_offset # on click
+var delay = 10
+
+func _ready():
+	original_position = position
+
+		
+func _input(event):
+	if event is InputEventMouseButton:
+		if event.button_index == MOUSE_BUTTON_LEFT:
+			if event.pressed and get_rect().has_point(to_local(event.position)):
+				is_dragging = true
+				drag_offset = position - event.position
+				get_viewport().set_input_as_handled()
+			elif not event.pressed and is_dragging:
+				is_dragging = false
+				emit_signal(\"drag_ended\", position)
+	elif event is InputEventMouseMotion and is_dragging:
+		global_position = event.position + drag_offset
+"
+
+[sub_resource type="GDScript" id="GDScript_76r2w"]
+script/source = "extends Sprite2D
+
+signal drag_ended
+
+var is_dragging = false
+var drag_offset = Vector2.ZERO
+var original_position = Vector2.ZERO
+var mouse_offset # on click
+var delay = 10
+
+func _ready():
+	original_position = position
+
+		
+func _input(event):
+	if event is InputEventMouseButton:
+		if event.button_index == MOUSE_BUTTON_LEFT:
+			if event.pressed and get_rect().has_point(to_local(event.position)):
+				is_dragging = true
+				drag_offset = position - event.position
+				get_viewport().set_input_as_handled()
+			elif not event.pressed and is_dragging:
+				is_dragging = false
+				emit_signal(\"drag_ended\", position)
+	elif event is InputEventMouseMotion and is_dragging:
+		global_position = event.position + drag_offset
+"
+
+[sub_resource type="GDScript" id="GDScript_ad1um"]
+script/source = "extends Sprite2D
+
+signal drag_ended
+
+var is_dragging = false
+var drag_offset = Vector2.ZERO
+var original_position = Vector2.ZERO
+var mouse_offset # on click
+var delay = 10
+
+func _ready():
+	original_position = position
+
+		
+func _input(event):
+	if event is InputEventMouseButton:
+		if event.button_index == MOUSE_BUTTON_LEFT:
+			if event.pressed and get_rect().has_point(to_local(event.position)):
+				is_dragging = true
+				drag_offset = position - event.position
+				get_viewport().set_input_as_handled()
+			elif not event.pressed and is_dragging:
+				is_dragging = false
+				emit_signal(\"drag_ended\", position)
+	elif event is InputEventMouseMotion and is_dragging:
+		global_position = event.position + drag_offset
+"
+
+[sub_resource type="GDScript" id="GDScript_depon"]
+script/source = "extends Sprite2D
+
+signal drag_ended
+
+var is_dragging = false
+var drag_offset = Vector2.ZERO
+var original_position = Vector2.ZERO
+var mouse_offset # on click
+var delay = 10
+
+func _ready():
+	original_position = position
+
+		
+func _input(event):
+	if event is InputEventMouseButton:
+		if event.button_index == MOUSE_BUTTON_LEFT:
+			if event.pressed and get_rect().has_point(to_local(event.position)):
+				is_dragging = true
+				drag_offset = position - event.position
+				get_viewport().set_input_as_handled()
+			elif not event.pressed and is_dragging:
+				is_dragging = false
+				emit_signal(\"drag_ended\", position)
+	elif event is InputEventMouseMotion and is_dragging:
+		global_position = event.position + drag_offset
+"
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_o5d7l"]
+radius = 792.0914
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_6xrl2"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("43_4ly52")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_1e2k8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_xwkw2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_8aggb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_nfj6s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_hjsfv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_1rh5d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_drwyx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_4jby4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_w3yfc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_pw8qc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_4f48h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_clcyl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_58vkg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_uc8km")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_0q1g8")
+}],
+"loop": false,
+"name": &"spoon",
+"speed": 12.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_70ja0"]
+radius = 26.019224
+
+[sub_resource type="Animation" id="Animation_g4q2h"]
+length = 0.001
+tracks/0/type = "bezier"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position:x")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"handle_modes": PackedInt32Array(0),
+"points": PackedFloat32Array(322.00003, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0)
+}
+tracks/1/type = "bezier"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:position:y")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"handle_modes": PackedInt32Array(0),
+"points": PackedFloat32Array(585.00006, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0)
+}
+tracks/2/type = "bezier"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath(".:rotation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"handle_modes": PackedInt32Array(0),
+"points": PackedFloat32Array(0, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0)
+}
+
+[sub_resource type="Animation" id="Animation_r8ui7"]
+resource_name = "wrong_order"
+length = 5.0
+tracks/0/type = "bezier"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position:x")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"handle_modes": PackedInt32Array(2, 0, 2, 0),
+"points": PackedFloat32Array(1256, -0.25, 0, 0.25, 0, 1078, -0.49833333, 29.666666, 0, 0, 1059, -0.1555556, -9.439397, 0.3333333, 20.22727, 1256, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0.01, 2.0666666, 3.0000002, 5)
+}
+tracks/1/type = "bezier"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:position:y")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"handle_modes": PackedInt32Array(2, 0, 2, 0),
+"points": PackedFloat32Array(2, -0.25, 0, 0.25, 0, 101.99997, -0.49833333, -16.666662, 0, 0, 112.000015, -0.1555556, 5.30303, 0.3333333, -11.363631, 2, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0.01, 2.0666666, 3.0000002, 5)
+}
+tracks/2/type = "bezier"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath(".:rotation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"handle_modes": PackedInt32Array(2, 0, 2, 0),
+"points": PackedFloat32Array(-0.3700098, -0.25, 0, 0.25, 0, -0.3700098, -0.49833333, 0, 0, 0, -0.3700098, -0.1555556, 0, 0.3333333, 0, -0.3700098, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0.01, 2.0666666, 3.0000002, 5)
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_pmxmc"]
+_data = {
+&"RESET": SubResource("Animation_g4q2h"),
+&"wrong_order": SubResource("Animation_r8ui7")
+}
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_2kjvb"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("39_5esjy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_dgyvd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_5esjy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_dgyvd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_5esjy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_dgyvd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_5esjy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_dgyvd")
+}],
+"loop": false,
+"name": &"battered_veg",
+"speed": 6.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_pmxmc"]
+
+[node name="paletta pt2" type="Node2D" unique_id=806700587]
+script = ExtResource("1_5gu3u")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1689233206]
+offset_right = 1155.0
+offset_bottom = 650.0
+texture = ExtResource("2_lp7si")
+expand_mode = 1
+metadata/_edit_lock_ = true
+
+[node name="EmptyBowl" type="Sprite2D" parent="." unique_id=258820355]
+position = Vector2(574.25, 211.23438)
+scale = Vector2(0.096850045, 0.09262877)
+texture = ExtResource("3_ik3i6")
+
+[node name="MincedGinger" type="Sprite2D" parent="." unique_id=776540081]
+position = Vector2(538, 575)
+scale = Vector2(0.025593292, 0.024799695)
+texture = ExtResource("4_5esjy")
+metadata/_edit_lock_ = true
+
+[node name="SmallGinger" type="Sprite2D" parent="." unique_id=1385226364]
+position = Vector2(533, 571.75)
+scale = Vector2(0.006556443, 0.0053416616)
+texture = ExtResource("5_dgyvd")
+script = SubResource("GDScript_x7nba")
+
+[node name="MinceGarlic" type="Sprite2D" parent="." unique_id=1924383324]
+position = Vector2(695, 517)
+scale = Vector2(0.0251167, 0.0228942)
+texture = ExtResource("6_2kjvb")
+metadata/_edit_lock_ = true
+
+[node name="SmallGarlic" type="Sprite2D" parent="." unique_id=440487824]
+position = Vector2(708, 516.6719)
+scale = Vector2(0.023018809, 0.019218644)
+texture = ExtResource("7_pmxmc")
+script = SubResource("GDScript_14our")
+
+[node name="GaramMasala" type="Sprite2D" parent="." unique_id=101537390]
+position = Vector2(1085.7499, 310.125)
+scale = Vector2(0.02615447, 0.025448497)
+texture = ExtResource("8_ymik2")
+metadata/_edit_lock_ = true
+
+[node name="SmallGaramMasala" type="Sprite2D" parent="." unique_id=1795797949]
+position = Vector2(1089.7499, 315.125)
+scale = Vector2(0.0076788627, 0.00857942)
+texture = ExtResource("9_2us8f")
+script = SubResource("GDScript_plxx4")
+
+[node name="water_bowl" type="Sprite2D" parent="." unique_id=189483503]
+position = Vector2(273, 160.5)
+scale = Vector2(0.02259122, 0.03008466)
+texture = ExtResource("10_pmxmc")
+
+[node name="Water" type="Sprite2D" parent="." unique_id=655351642]
+position = Vector2(274, 151.5)
+scale = Vector2(0.026225768, 0.037290867)
+texture = ExtResource("11_ymik2")
+script = ExtResource("17_ik3i6")
+
+[node name="chickpea_bowl" type="Sprite2D" parent="." unique_id=2111317672]
+position = Vector2(108, 293.00003)
+scale = Vector2(0.041619148, 0.041070353)
+texture = ExtResource("3_ik3i6")
+
+[node name="ChickpeaFlour" type="Sprite2D" parent="." unique_id=1267796343]
+position = Vector2(108.000015, 289.5)
+scale = Vector2(0.044184726, 0.045353767)
+texture = ExtResource("13_2us8f")
+script = SubResource("GDScript_j804w")
+
+[node name="GreenChilli" type="Sprite2D" parent="." unique_id=1925780060]
+position = Vector2(902, 315.0001)
+rotation = -0.3525565
+scale = Vector2(0.017451184, 0.01783915)
+texture = ExtResource("14_opp1t")
+script = SubResource("GDScript_xjrta")
+
+[node name="Salt" type="Sprite2D" parent="." unique_id=1578425443]
+position = Vector2(1052.5, 424.00003)
+scale = Vector2(0.02323261, 0.026204403)
+texture = ExtResource("15_x7nba")
+metadata/_edit_lock_ = true
+
+[node name="SmallSalt" type="Sprite2D" parent="." unique_id=823245106]
+position = Vector2(1052.4999, 430.00003)
+scale = Vector2(0.012489298, 0.013253382)
+texture = ExtResource("16_14our")
+script = SubResource("GDScript_7vqem")
+
+[node name="Tumeric" type="Sprite2D" parent="." unique_id=1522209787]
+position = Vector2(896, 436)
+scale = Vector2(0.025655651, 0.024591818)
+texture = ExtResource("17_plxx4")
+metadata/_edit_lock_ = true
+
+[node name="SmallTumeric" type="Sprite2D" parent="." unique_id=1279216710]
+position = Vector2(904, 444)
+scale = Vector2(0.009692126, 0.011086482)
+texture = ExtResource("18_j804w")
+script = SubResource("GDScript_76r2w")
+
+[node name="RedChilli" type="Sprite2D" parent="." unique_id=1190113303]
+position = Vector2(854.00006, 562)
+scale = Vector2(0.025513113, 0.024868993)
+texture = ExtResource("19_xjrta")
+metadata/_edit_lock_ = true
+
+[node name="SmallRedChilli" type="Sprite2D" parent="." unique_id=1260747379]
+position = Vector2(855.00006, 564)
+scale = Vector2(0.010868034, 0.012128986)
+texture = ExtResource("20_7vqem")
+script = SubResource("GDScript_ad1um")
+
+[node name="DhanaJeeru" type="Sprite2D" parent="." unique_id=1761787816]
+position = Vector2(1026, 545)
+scale = Vector2(0.023802737, 0.023785517)
+texture = ExtResource("21_7vqem")
+metadata/_edit_lock_ = true
+
+[node name="SmallDhanaJeeru" type="Sprite2D" parent="." unique_id=2091949779]
+position = Vector2(1029, 552)
+scale = Vector2(0.0100840945, 0.011388839)
+texture = ExtResource("22_76r2w")
+script = SubResource("GDScript_depon")
+
+[node name="BackOfOil" type="Sprite2D" parent="." unique_id=2035090025]
+position = Vector2(949.7499, 141.00002)
+scale = Vector2(0.04639394, 0.068534575)
+texture = ExtResource("23_ad1um")
+metadata/_edit_lock_ = true
+
+[node name="oil" type="Sprite2D" parent="." unique_id=1360905731]
+position = Vector2(942, 142.99994)
+scale = Vector2(0.051881418, 0.055785026)
+texture = ExtResource("24_depon")
+script = ExtResource("18_wh2n7")
+
+[node name="Area2D" type="Area2D" parent="oil" unique_id=757803296]
+position = Vector2(501.14285, -537.77704)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="oil/Area2D" unique_id=1797858603]
+position = Vector2(-269.84613, -752.8902)
+shape = SubResource("CircleShape2D_o5d7l")
+
+[node name="FrontOfOil" type="Sprite2D" parent="." unique_id=1845242875]
+position = Vector2(947, 136.99998)
+scale = Vector2(0.03734322, 0.039709736)
+texture = ExtResource("26_4ly52")
+metadata/_edit_lock_ = true
+
+[node name="Batter" type="Sprite2D" parent="." unique_id=877809427]
+position = Vector2(575.5, 211.5)
+scale = Vector2(0.09478336, 0.09050594)
+texture = ExtResource("27_ad1um")
+
+[node name="veg_bowl" type="Sprite2D" parent="." unique_id=98554386]
+position = Vector2(275.99997, 489.6876)
+scale = Vector2(0.060718358, 0.0655866)
+texture = ExtResource("10_pmxmc")
+metadata/_edit_lock_ = true
+
+[node name="Veg" type="Sprite2D" parent="." unique_id=1396386705]
+position = Vector2(273.00003, 459)
+scale = Vector2(0.041049033, 0.038374346)
+texture = ExtResource("28_depon")
+script = ExtResource("14_5gu3u")
+
+[node name="veg_water" type="Sprite2D" parent="." unique_id=1970021957]
+position = Vector2(276.5, 489.5)
+scale = Vector2(0.0577252, 0.059463806)
+texture = ExtResource("11_ymik2")
+metadata/_edit_lock_ = true
+
+[node name="spoon" type="Area2D" parent="." unique_id=602765314]
+
+[node name="spoon" type="AnimatedSprite2D" parent="spoon" unique_id=1379700499]
+position = Vector2(612.00006, 174)
+scale = Vector2(0.036712933, 0.032176454)
+sprite_frames = SubResource("SpriteFrames_6xrl2")
+animation = &"spoon"
+frame = 15
+frame_progress = 1.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="spoon" unique_id=658877425]
+position = Vector2(707, 9)
+shape = SubResource("CircleShape2D_70ja0")
+debug_color = Color(0.3744043, 0.6148865, 1.92523e-07, 0.41960785)
+
+[node name="button_manager" type="Control" parent="." unique_id=1240967916]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="back" type="Button" parent="button_manager" unique_id=458542724]
+layout_mode = 0
+offset_left = -4.0
+offset_top = -14.0
+offset_right = 136.0
+offset_bottom = 110.0
+icon = ExtResource("47_depon")
+flat = true
+expand_icon = true
+
+[node name="garammasala_" type="Sprite2D" parent="." unique_id=677236673]
+position = Vector2(1068, 361)
+scale = Vector2(0.1132349, 0.114439)
+texture = ExtResource("51_j804w")
+metadata/_edit_lock_ = true
+
+[node name="salt" type="Sprite2D" parent="." unique_id=1536650850]
+position = Vector2(1171, 473)
+scale = Vector2(0.1132349, 0.114439)
+texture = ExtResource("52_xjrta")
+metadata/_edit_lock_ = true
+
+[node name="dhanajeeru_" type="Sprite2D" parent="." unique_id=1229121083]
+position = Vector2(1088, 602)
+scale = Vector2(0.1132349, 0.114439)
+texture = ExtResource("53_xjrta")
+metadata/_edit_lock_ = true
+
+[node name="turmeric_" type="Sprite2D" parent="." unique_id=1005093318]
+position = Vector2(965.00006, 492)
+scale = Vector2(0.1132349, 0.114439)
+texture = ExtResource("54_76r2w")
+metadata/_edit_lock_ = true
+
+[node name="redchilli_" type="Sprite2D" parent="." unique_id=1394798587]
+position = Vector2(848.00006, 616)
+scale = Vector2(0.1132349, 0.114439)
+texture = ExtResource("55_ad1um")
+metadata/_edit_lock_ = true
+
+[node name="Wrong_Order" type="Sprite2D" parent="." unique_id=1979849119]
+position = Vector2(322.00003, 585.00006)
+scale = Vector2(0.059578065, 0.060860883)
+texture = ExtResource("42_2kjvb")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Wrong_Order" unique_id=1343703573]
+libraries/ = SubResource("AnimationLibrary_pmxmc")
+
+[node name="battered_veg" type="Area2D" parent="." unique_id=159344312]
+
+[node name="battered_veg" type="AnimatedSprite2D" parent="battered_veg" unique_id=715090858]
+position = Vector2(581.5, 189.99998)
+scale = Vector2(0.0768244, 0.07458173)
+sprite_frames = SubResource("SpriteFrames_2kjvb")
+animation = &"battered_veg"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="battered_veg" unique_id=100286384]
+shape = SubResource("CircleShape2D_pmxmc")
+
+[node name="cooking" type="AudioStreamPlayer" parent="." unique_id=1774162301]
+stream = ExtResource("56_depon")
+volume_db = -6.5
+autoplay = true
+parameters/looping = true
+
+[node name="wrongordersfx" type="AudioStreamPlayer" parent="." unique_id=1277951951]
+stream = ExtResource("57_depon")
+volume_db = -6.5
+autoplay = true
+
+[connection signal="animation_finished" from="spoon/spoon" to="." method="_on_spoon_animation_finished"]
+[connection signal="pressed" from="button_manager/back" to="." method="_on_back_pressed"]
+[connection signal="animation_finished" from="battered_veg/battered_veg" to="." method="_on_battered_veg_animation_finished"]

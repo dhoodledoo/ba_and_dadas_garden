@@ -1,0 +1,50 @@
+[gd_scene format=3 uid="uid://b11qdy1htvh0j"]
+
+[ext_resource type="Texture2D" uid="uid://bqmad2sxhy2xm" path="res://assets/recipe_page_main_menu/IMG_3715.JPG" id="1_5iinu"]
+[ext_resource type="Script" uid="uid://c4jlp4bw0j1y2" path="res://scripts/recipe_2.gd" id="1_ym3ew"]
+[ext_resource type="Texture2D" uid="uid://dr6l3sytm4yjx" path="res://assets/buttons/Back.png" id="2_ym3ew"]
+[ext_resource type="Texture2D" uid="uid://v4wmsopjxcw8" path="res://assets/buttons/Next.png" id="3_hbkja"]
+[ext_resource type="AudioStream" uid="uid://lvq5ja1atfq3" path="res://assets/sounds/calm_flute.ogg" id="5_hbkja"]
+
+[node name="recipe2" type="Node2D" unique_id=1060382860]
+script = ExtResource("1_ym3ew")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=320119703]
+offset_top = -24.0
+offset_right = 1152.0
+offset_bottom = 688.0
+texture = ExtResource("1_5iinu")
+expand_mode = 1
+
+[node name="button_manager" type="Control" parent="." unique_id=489046237]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="back" type="Button" parent="button_manager" unique_id=962817091]
+layout_mode = 0
+offset_top = 504.0
+offset_right = 231.0
+offset_bottom = 675.0
+icon = ExtResource("2_ym3ew")
+flat = true
+expand_icon = true
+
+[node name="next" type="Button" parent="button_manager" unique_id=1468942746]
+layout_mode = 0
+offset_left = 328.0
+offset_top = 504.0
+offset_right = 574.0
+offset_bottom = 670.0
+icon = ExtResource("3_hbkja")
+flat = true
+expand_icon = true
+
+[node name="flute" type="AudioStreamPlayer" parent="." unique_id=927182110]
+stream = ExtResource("5_hbkja")
+autoplay = true
+parameters/looping = true
+
+[connection signal="pressed" from="button_manager/back" to="." method="_on_back_pressed"]
+[connection signal="pressed" from="button_manager/next" to="." method="_on_next_pressed"]

@@ -1,0 +1,118 @@
+[gd_scene format=3 uid="uid://bxqjfdx2lb87t"]
+
+[ext_resource type="Texture2D" uid="uid://cmna1iud4oyje" path="res://assets/jpeg_game_menu.jpg" id="1_hltfv"]
+[ext_resource type="Script" uid="uid://dyc1t422vyqtr" path="res://scripts/garden.gd" id="1_t3x5t"]
+[ext_resource type="Texture2D" uid="uid://24mytj2jybfi" path="res://assets/garden_question.png" id="3_4iwim"]
+[ext_resource type="Texture2D" uid="uid://dr6l3sytm4yjx" path="res://assets/buttons/Back.png" id="9_5pv02"]
+[ext_resource type="Texture2D" uid="uid://dwmnfe56roly8" path="res://assets/labels/aubergine.PNG" id="10_3txl1"]
+[ext_resource type="AudioStream" uid="uid://bg7v3mn6go3jr" path="res://assets/sounds/Garden.ogg" id="10_8csfy"]
+[ext_resource type="Texture2D" uid="uid://brx8brpmw7ga3" path="res://assets/labels/tomatoes.PNG" id="11_v6x8h"]
+[ext_resource type="Texture2D" uid="uid://dt0e082hccr01" path="res://assets/labels/lemons.PNG" id="12_f5kbm"]
+[ext_resource type="Texture2D" uid="uid://dnoyuo0als6ht" path="res://assets/labels/mangoes.PNG" id="13_1diec"]
+[ext_resource type="Texture2D" uid="uid://ddcdt1noi3xje" path="res://assets/labels/carrots.PNG" id="14_6x48w"]
+[ext_resource type="VideoStream" uid="uid://chj0potxmp16u" path="res://assets/cut_scenes/Loading_page.ogv" id="16_f5kbm"]
+
+[node name="garden" type="Node2D" unique_id=1721091970]
+script = ExtResource("1_t3x5t")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=88171730]
+offset_right = 1151.0
+offset_bottom = 649.0
+metadata/_edit_lock_ = true
+
+[node name="JpegGameMenu" type="Sprite2D" parent="TextureRect" unique_id=915337506]
+position = Vector2(576.00006, 324.00003)
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("1_hltfv")
+metadata/_edit_lock_ = true
+
+[node name="GardenQuestion" type="Sprite2D" parent="." unique_id=1005363447]
+position = Vector2(597, 595)
+scale = Vector2(0.083363034, 0.08095644)
+texture = ExtResource("3_4iwim")
+
+[node name="button_manager" type="Control" parent="." unique_id=463139696]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="back" type="Button" parent="button_manager" unique_id=114334228]
+layout_mode = 0
+offset_left = -4.0
+offset_top = -14.0
+offset_right = 136.0
+offset_bottom = 110.0
+icon = ExtResource("9_5pv02")
+flat = true
+expand_icon = true
+
+[node name="aubergine" type="Button" parent="button_manager" unique_id=886888665]
+layout_mode = 0
+offset_left = 791.0
+offset_top = 413.0
+offset_right = 909.0
+offset_bottom = 477.0
+icon = ExtResource("10_3txl1")
+flat = true
+expand_icon = true
+
+[node name="lemons" type="Button" parent="button_manager" unique_id=675170028]
+layout_mode = 0
+offset_left = 968.0
+offset_top = 252.0
+offset_right = 1086.0
+offset_bottom = 316.0
+icon = ExtResource("12_f5kbm")
+flat = true
+expand_icon = true
+
+[node name="mango" type="Button" parent="button_manager" unique_id=604824162]
+layout_mode = 0
+offset_left = 460.0
+offset_top = 350.0
+offset_right = 578.0
+offset_bottom = 414.0
+icon = ExtResource("13_1diec")
+flat = true
+expand_icon = true
+
+[node name="tomatoes" type="Button" parent="button_manager" unique_id=1955169852]
+layout_mode = 0
+offset_left = 150.0
+offset_top = 292.0
+offset_right = 268.0
+offset_bottom = 356.0
+icon = ExtResource("11_v6x8h")
+flat = true
+expand_icon = true
+
+[node name="carrots" type="Button" parent="button_manager" unique_id=1779903622]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 471.0
+offset_right = 138.0
+offset_bottom = 535.0
+icon = ExtResource("14_6x48w")
+flat = true
+expand_icon = true
+
+[node name="Garden" type="AudioStreamPlayer" parent="." unique_id=2103316423]
+stream = ExtResource("10_8csfy")
+autoplay = true
+parameters/looping = true
+
+[node name="loading" type="VideoStreamPlayer" parent="." unique_id=697922747]
+offset_right = 1152.0
+offset_bottom = 648.0
+stream = ExtResource("16_f5kbm")
+autoplay = true
+expand = true
+metadata/_edit_lock_ = true
+
+[connection signal="pressed" from="button_manager/back" to="." method="_on_back_pressed"]
+[connection signal="pressed" from="button_manager/aubergine" to="." method="_on_aubergine_pressed"]
+[connection signal="pressed" from="button_manager/lemons" to="." method="_on_lemons_pressed"]
+[connection signal="pressed" from="button_manager/mango" to="." method="_on_mango_pressed"]
+[connection signal="pressed" from="button_manager/tomatoes" to="." method="_on_tomatoes_pressed"]
+[connection signal="pressed" from="button_manager/carrots" to="." method="_on_carrots_pressed"]

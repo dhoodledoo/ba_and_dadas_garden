@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://3ejcog00l1hx"]
+
+[ext_resource type="VideoStream" uid="uid://cskv4ke8gmt8u" path="res://assets/cut_scenes/Paletta_cut_scene.ogv" id="1_41i3u"]
+[ext_resource type="Script" uid="uid://bqdox6bh1lcbd" path="res://scripts/paletta_cut_scene.gd" id="1_yustq"]
+[ext_resource type="AudioStream" uid="uid://blup1puf50e4b" path="res://assets/sounds/bg_cooking.ogg" id="3_4r76h"]
+
+[node name="paletta_cut_scene" type="Control" unique_id=155766414]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_yustq")
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="." unique_id=941284536]
+layout_mode = 0
+offset_right = 1152.0
+offset_bottom = 648.0
+stream = ExtResource("1_41i3u")
+autoplay = true
+expand = true
+metadata/_edit_lock_ = true
+
+[node name="cut_scene" type="AudioStreamPlayer" parent="." unique_id=422965296]
+stream = ExtResource("3_4r76h")
+autoplay = true
+parameters/looping = true
+
+[connection signal="finished" from="VideoStreamPlayer" to="." method="_on_video_stream_player_finished"]

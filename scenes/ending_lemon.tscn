@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://cm0dx86i1skej"]
+
+[ext_resource type="Script" uid="uid://dyjxqehf46s1e" path="res://ending_lemon.gd" id="1_kuta2"]
+[ext_resource type="VideoStream" uid="uid://8hr5q74k8gsi" path="res://scripts/ending_limbu.ogv" id="2_kuta2"]
+[ext_resource type="AudioStream" uid="uid://dh3alrhashsg4" path="res://assets/sounds/Talking.ogg" id="3_n6v6g"]
+
+[node name="ending_lemon" type="Control" unique_id=1667461831]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_kuta2")
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="." unique_id=138889983]
+layout_mode = 0
+offset_right = 1152.0
+offset_bottom = 648.0
+stream = ExtResource("2_kuta2")
+autoplay = true
+expand = true
+
+[node name="talking" type="AudioStreamPlayer" parent="." unique_id=1465026779]
+stream = ExtResource("3_n6v6g")
+autoplay = true
+parameters/looping = true
+
+[connection signal="finished" from="VideoStreamPlayer" to="." method="_on_video_stream_player_finished"]

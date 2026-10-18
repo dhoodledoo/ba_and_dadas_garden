@@ -1,0 +1,49 @@
+[gd_scene format=3 uid="uid://ddvao55wb02gu"]
+
+[ext_resource type="Script" uid="uid://dvj8ino2ysela" path="res://recipe_3.gd" id="1_eub0w"]
+[ext_resource type="Texture2D" uid="uid://cw7r5hnraxwpv" path="res://scripts/tomato_recipe.JPG" id="2_abo1f"]
+[ext_resource type="Texture2D" uid="uid://7xmmy1dmx1sx" path="res://assets/buttons/Back.png" id="3_k2vl1"]
+[ext_resource type="Texture2D" uid="uid://vp7ahqeolur4" path="res://assets/buttons/Next.png" id="4_g3lli"]
+[ext_resource type="AudioStream" uid="uid://lvq5ja1atfq3" path="res://assets/sounds/calm_flute.ogg" id="5_abo1f"]
+
+[node name="recipe_3" type="Node2D" unique_id=1763147418]
+script = ExtResource("1_eub0w")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1352584410]
+offset_top = -40.0
+offset_right = 1152.0
+offset_bottom = 704.0
+texture = ExtResource("2_abo1f")
+expand_mode = 1
+
+[node name="button_manager" type="Control" parent="TextureRect" unique_id=541879571]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="back" type="Button" parent="TextureRect/button_manager" unique_id=263933167]
+layout_mode = 0
+offset_top = 520.0
+offset_right = 231.0
+offset_bottom = 691.0
+icon = ExtResource("3_k2vl1")
+flat = true
+expand_icon = true
+
+[node name="next" type="Button" parent="TextureRect/button_manager" unique_id=1492863571]
+layout_mode = 0
+offset_left = 328.0
+offset_top = 520.0
+offset_right = 574.0
+offset_bottom = 686.0
+icon = ExtResource("4_g3lli")
+flat = true
+expand_icon = true
+
+[node name="flute" type="AudioStreamPlayer" parent="." unique_id=1871894799]
+stream = ExtResource("5_abo1f")
+autoplay = true
+parameters/looping = true
+
+[connection signal="pressed" from="TextureRect/button_manager/back" to="." method="_on_back_pressed"]
+[connection signal="pressed" from="TextureRect/button_manager/next" to="." method="_on_next_pressed"]

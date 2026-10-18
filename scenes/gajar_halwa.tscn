@@ -1,0 +1,707 @@
+[gd_scene format=3 uid="uid://bmlcvxis3ijb1"]
+
+[ext_resource type="Script" uid="uid://be66n6fhe020" path="res://scripts/gajar_halwa.gd" id="1_a1kdx"]
+[ext_resource type="Texture2D" uid="uid://bsnbqea8wc315" path="res://assets/wood_simple.jpg" id="2_0yemd"]
+[ext_resource type="Texture2D" uid="uid://btj0jq4q8cono" path="res://assets/sprite_frames/gas_and_fire/Untitled_Artwork-1 2.png" id="2_4jj35"]
+[ext_resource type="Texture2D" uid="uid://dpd327tqir0ve" path="res://assets/sprite_frames/gas_and_fire/Untitled_Artwork-2 2.png" id="3_tqafl"]
+[ext_resource type="Texture2D" uid="uid://dj7nyeve6pogl" path="res://assets/gajar_halwa/blue_pot.png" id="5_wxdnf"]
+[ext_resource type="Texture2D" uid="uid://dmfprg37hc1n1" path="res://assets/gajar_halwa/back_of_ghee.png" id="6_lvflq"]
+[ext_resource type="Texture2D" uid="uid://cxker8r6gpyu8" path="res://assets/gajar_halwa/ghee_spoon.png" id="7_a86gk"]
+[ext_resource type="Script" uid="uid://l0e4nh8pwli4" path="res://scripts/ghee_spoon.gd" id="7_msjai"]
+[ext_resource type="Texture2D" uid="uid://cjsg28gjvopg0" path="res://assets/gajar_halwa/front_of_ghee.png" id="9_f0nsc"]
+[ext_resource type="Texture2D" uid="uid://bsox7bs5ifwl8" path="res://assets/sprite_frames/frying_oil/1.png" id="10_nqnl7"]
+[ext_resource type="Script" uid="uid://bitgymo6m3mot" path="res://scripts/milk.gd" id="11_n8rak"]
+[ext_resource type="Texture2D" uid="uid://dit63k824a4ps" path="res://assets/sprite_frames/frying_oil/2.png" id="11_odm7w"]
+[ext_resource type="Texture2D" uid="uid://dgdshq8te5riy" path="res://assets/sprite_frames/frying_oil/3.png" id="12_fh082"]
+[ext_resource type="Texture2D" uid="uid://0udm3oa1bd53" path="res://assets/sprite_frames/frying_oil/4.png" id="13_i5jm6"]
+[ext_resource type="Texture2D" uid="uid://01rbtnvl23s" path="res://assets/gajar_halwa/milk.png" id="14_k5hud"]
+[ext_resource type="Texture2D" uid="uid://cuo01gvec7ug1" path="res://assets/sprite_frames/pouring_milk/20260415_102901344_iOS.png" id="15_ll4ca"]
+[ext_resource type="Texture2D" uid="uid://rdtn7hhlglr2" path="res://assets/sprite_frames/pouring_milk/20260415_102901880_iOS.png" id="16_a2kcs"]
+[ext_resource type="Texture2D" uid="uid://cb4krijcdb7ow" path="res://assets/mango_shrikand/Empty_bowl.png" id="16_qjkk0"]
+[ext_resource type="Texture2D" uid="uid://8eibkbdcka24" path="res://assets/sprite_frames/pouring_milk/20260415_102902344_iOS.png" id="17_e65kj"]
+[ext_resource type="Script" uid="uid://3r4id8ld85cv" path="res://scripts/grated_carrots.gd" id="18_hg527"]
+[ext_resource type="Texture2D" uid="uid://gp5ksc5r7834" path="res://assets/sprite_frames/pouring_milk/20260415_102902815_iOS.png" id="18_tdxil"]
+[ext_resource type="Texture2D" uid="uid://catpg2ou6ag4" path="res://assets/sprite_frames/pouring_milk/20260415_102903295_iOS.png" id="19_l2ipp"]
+[ext_resource type="Texture2D" uid="uid://vs30yktyqdni" path="res://assets/sprite_frames/pouring_milk/20260415_102903788_iOS.png" id="20_vu8s6"]
+[ext_resource type="Texture2D" uid="uid://dswbiji2j4v1v" path="res://assets/sprite_frames/pouring_milk/20260415_102904300_iOS.png" id="21_50ih2"]
+[ext_resource type="Script" uid="uid://bdwo6vidokp7n" path="res://scripts/small_sugar.gd" id="21_kffoi"]
+[ext_resource type="Texture2D" uid="uid://b384to00q4kad" path="res://assets/gajar_halwa/grated_carrots.png" id="21_ps5ry"]
+[ext_resource type="Texture2D" uid="uid://dxv3bc5y0epuc" path="res://assets/sprite_frames/pouring_milk/20260415_102904830_iOS.png" id="22_tsaj3"]
+[ext_resource type="Texture2D" uid="uid://b7jcbxinslumx" path="res://assets/sprite_frames/pouring_milk/20260415_102905410_iOS.png" id="23_4g1xg"]
+[ext_resource type="Script" uid="uid://ci2r8adg0fkto" path="res://scripts/small_cradomom.gd" id="23_wmte1"]
+[ext_resource type="Texture2D" uid="uid://sse3v1ocyxut" path="res://assets/mango_shrikand/sugar.png" id="23_yj838"]
+[ext_resource type="Texture2D" uid="uid://divvqibt2ci6h" path="res://assets/sprite_frames/pouring_milk/20260415_102906006_iOS.png" id="24_m3m7y"]
+[ext_resource type="Texture2D" uid="uid://hoe0x8sb6uo6" path="res://assets/mango_shrikand/Small_sugar.png" id="24_xrwhv"]
+[ext_resource type="Texture2D" uid="uid://dtunu4oafuuax" path="res://assets/sprite_frames/milky_carrots/20260415_104917472_iOS.png" id="25_l2ipp"]
+[ext_resource type="Texture2D" uid="uid://d3duxhiuuea3k" path="res://assets/gajar_halwa/small_cradomom.png" id="26_fg7n7"]
+[ext_resource type="Texture2D" uid="uid://c15npg0q6rkvr" path="res://assets/sprite_frames/milky_carrots/20260415_104918338_iOS.png" id="26_vu8s6"]
+[ext_resource type="Script" uid="uid://bi44vt32uif38" path="res://scripts/crushed_nuts.gd" id="27_1k8pe"]
+[ext_resource type="Texture2D" uid="uid://bcn8bm0vwafu4" path="res://assets/sprite_frames/milky_carrots/20260415_104919122_iOS.png" id="27_50ih2"]
+[ext_resource type="Texture2D" uid="uid://b4un6bd4mp4a0" path="res://assets/tomato_shak/ingredients/empty.png" id="28_6g4uc"]
+[ext_resource type="Texture2D" uid="uid://ca6sajwmkrg6m" path="res://assets/sprite_frames/milky_carrots/20260415_104920021_iOS.png" id="28_tsaj3"]
+[ext_resource type="Texture2D" uid="uid://pw0vxdxklt6q" path="res://assets/sprite_frames/happy_ba/1.png" id="29_50ih2"]
+[ext_resource type="Texture2D" uid="uid://shm82djsjawv" path="res://assets/gajar_halwa/cardomom_powder.png" id="29_wqjgv"]
+[ext_resource type="Texture2D" uid="uid://ckdwnujkmya10" path="res://assets/mango_shrikand/crushed_nuts.png" id="30_pbdye"]
+[ext_resource type="Texture2D" uid="uid://mcntu3oicl47" path="res://assets/sprite_frames/happy_ba/2.png" id="30_tsaj3"]
+[ext_resource type="Texture2D" uid="uid://bp4k5i7wop7cn" path="res://assets/Ghost.png" id="35_msjai"]
+[ext_resource type="Texture2D" uid="uid://b4insgf5cus50" path="res://assets/sprite_frames/reduced_carrots/20260415_154816391_iOS.png" id="42_wmte1"]
+[ext_resource type="Texture2D" uid="uid://dba5q44wdy45y" path="res://assets/sprite_frames/reduced_carrots/20260415_154817035_iOS.png" id="43_tbhoy"]
+[ext_resource type="Texture2D" uid="uid://bx4lo2r4tk2jy" path="res://assets/sprite_frames/reduced_carrots/20260415_154817592_iOS.png" id="44_xxhw8"]
+[ext_resource type="Texture2D" uid="uid://bcugooipddvjj" path="res://assets/sprite_frames/reduced_carrots/20260415_154818160_iOS.png" id="45_ybla6"]
+[ext_resource type="Texture2D" uid="uid://dqlyuet6d3sva" path="res://assets/sprite_frames/finished_halwa/20260415_162340275_iOS.png" id="49_xxhw8"]
+[ext_resource type="Texture2D" uid="uid://cr8l444e66i3s" path="res://assets/sprite_frames/finished_halwa/20260415_162340967_iOS.png" id="50_ybla6"]
+[ext_resource type="Texture2D" uid="uid://be5xr420y6bvi" path="res://assets/swaad/20260415_194913241_iOS.png" id="51_hv1ph"]
+[ext_resource type="Texture2D" uid="uid://y3tvbaka8xcx" path="res://assets/swaad/20260415_194914052_iOS.png" id="52_7ouqt"]
+[ext_resource type="Texture2D" uid="uid://dkpv2x6fqxpxn" path="res://assets/swaad/20260415_194914834_iOS.png" id="53_op6k6"]
+[ext_resource type="Texture2D" uid="uid://dctx33y3h1kcf" path="res://assets/buttons/recipe_book.png" id="54_0yemd"]
+[ext_resource type="Texture2D" uid="uid://ccanupxaniswe" path="res://assets/labels/ghee.PNG" id="55_op6k6"]
+[ext_resource type="AudioStream" uid="uid://dg2kovon12gd5" path="res://assets/sounds/fun.ogg" id="56_0yemd"]
+[ext_resource type="AudioStream" uid="uid://b5fpmsktt5sew" path="res://assets/sounds/Wrongordersfx.ogg" id="57_0yemd"]
+[ext_resource type="AudioStream" uid="uid://c5brk20tpbev" path="res://assets/sounds/Swaad.ogg" id="58_0yemd"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_xl21k"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_4jj35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_tqafl")
+}],
+"loop": true,
+"name": &"gas_and_fire",
+"speed": 6.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_h6evt"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_5eycr"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_nqnl7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_odm7w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_fh082")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_i5jm6")
+}],
+"loop": true,
+"name": &"bubbling",
+"speed": 7.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_xl21k"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_b4i1l"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("42_wmte1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_tbhoy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_xxhw8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_ybla6")
+}],
+"loop": true,
+"name": &"reduced_carrots",
+"speed": 8.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ghu5u"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_a1kdx"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("15_ll4ca")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_a2kcs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_e65kj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_tdxil")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_l2ipp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_vu8s6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_50ih2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_tsaj3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_4g1xg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_m3m7y")
+}],
+"loop": false,
+"name": &"pouring_milk",
+"speed": 9.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_msjai"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_4g1xg"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("25_l2ipp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_vu8s6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_50ih2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_tsaj3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_l2ipp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_vu8s6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_50ih2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_tsaj3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_l2ipp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_vu8s6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_50ih2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_tsaj3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_l2ipp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_vu8s6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_50ih2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_tsaj3")
+}],
+"loop": false,
+"name": &"milky_carrots",
+"speed": 8.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_m3m7y"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_1k8pe"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("49_xxhw8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_ybla6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_xxhw8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_ybla6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_xxhw8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_ybla6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_xxhw8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_ybla6")
+}],
+"loop": false,
+"name": &"finished_halwa",
+"speed": 6.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_hv1ph"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_m3m7y"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("29_50ih2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_tsaj3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_50ih2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_tsaj3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_50ih2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_tsaj3")
+}],
+"loop": false,
+"name": &"happy_ba",
+"speed": 6.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_a1kdx"]
+
+[sub_resource type="Animation" id="Animation_g4q2h"]
+length = 0.001
+tracks/0/type = "bezier"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position:x")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"handle_modes": PackedInt32Array(0),
+"points": PackedFloat32Array(322.00003, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0)
+}
+tracks/1/type = "bezier"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:position:y")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"handle_modes": PackedInt32Array(0),
+"points": PackedFloat32Array(585.00006, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0)
+}
+tracks/2/type = "bezier"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath(".:rotation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"handle_modes": PackedInt32Array(0),
+"points": PackedFloat32Array(0, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0)
+}
+
+[sub_resource type="Animation" id="Animation_r8ui7"]
+resource_name = "wrong_order"
+length = 5.0
+tracks/0/type = "bezier"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position:x")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"handle_modes": PackedInt32Array(2, 0, 2, 0),
+"points": PackedFloat32Array(1256, -0.25, 0, 0.25, 0, 1078, -0.49833333, 29.666666, 0, 0, 1059, -0.1555556, -9.439397, 0.3333333, 20.22727, 1256, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0.01, 2.0666666, 3.0000002, 5)
+}
+tracks/1/type = "bezier"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:position:y")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"handle_modes": PackedInt32Array(2, 0, 2, 0),
+"points": PackedFloat32Array(2, -0.25, 0, 0.25, 0, 101.99997, -0.49833333, -16.666662, 0, 0, 112.000015, -0.1555556, 5.30303, 0.3333333, -11.363631, 2, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0.01, 2.0666666, 3.0000002, 5)
+}
+tracks/2/type = "bezier"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath(".:rotation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"handle_modes": PackedInt32Array(2, 0, 2, 0),
+"points": PackedFloat32Array(-0.3700098, -0.25, 0, 0.25, 0, -0.3700098, -0.49833333, 0, 0, 0, -0.3700098, -0.1555556, 0, 0.3333333, 0, -0.3700098, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0.01, 2.0666666, 3.0000002, 5)
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_n8rak"]
+_data = {
+&"RESET": SubResource("Animation_g4q2h"),
+&"wrong_order": SubResource("Animation_r8ui7")
+}
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_pmukx"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("51_hv1ph")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_7ouqt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_op6k6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_hv1ph")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_7ouqt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_op6k6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_hv1ph")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_7ouqt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_op6k6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_hv1ph")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_7ouqt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_op6k6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_hv1ph")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_7ouqt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_op6k6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_hv1ph")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_7ouqt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_op6k6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_hv1ph")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_7ouqt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_op6k6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_hv1ph")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_7ouqt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_op6k6")
+}],
+"loop": false,
+"name": &"swaad",
+"speed": 6.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_eu0mi"]
+
+[node name="gajar_halwa" type="Node2D" unique_id=1625928341]
+script = ExtResource("1_a1kdx")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=683784664]
+offset_right = 1153.0
+offset_bottom = 649.0
+texture = ExtResource("2_0yemd")
+expand_mode = 1
+metadata/_edit_lock_ = true
+
+[node name="gas_and_fire" type="Area2D" parent="." unique_id=591337841]
+
+[node name="gas_and_fire" type="AnimatedSprite2D" parent="gas_and_fire" unique_id=2139389852]
+position = Vector2(774.43, 248.96)
+scale = Vector2(0.10335305, 0.10238613)
+sprite_frames = SubResource("SpriteFrames_xl21k")
+animation = &"gas_and_fire"
+frame = 1
+frame_progress = 0.1023376
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="gas_and_fire" unique_id=125623121]
+shape = SubResource("CircleShape2D_h6evt")
+
+[node name="gas_and_fire2" type="Area2D" parent="." unique_id=916481977]
+
+[node name="gas_and_fire2" type="AnimatedSprite2D" parent="gas_and_fire2" unique_id=1431628782]
+position = Vector2(382.00006, 247)
+scale = Vector2(0.10335305, 0.10238613)
+sprite_frames = SubResource("SpriteFrames_xl21k")
+animation = &"gas_and_fire"
+frame = 1
+frame_progress = 0.1023376
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="gas_and_fire2" unique_id=1801664515]
+shape = SubResource("CircleShape2D_h6evt")
+
+[node name="BluePot" type="Sprite2D" parent="." unique_id=2079237456]
+position = Vector2(872, 201)
+scale = Vector2(0.08455671, 0.08135961)
+texture = ExtResource("5_wxdnf")
+
+[node name="BluePot2" type="Sprite2D" parent="." unique_id=262151089]
+position = Vector2(872, 201)
+scale = Vector2(0.08455671, 0.08135961)
+texture = ExtResource("5_wxdnf")
+
+[node name="BackOfGhee" type="Sprite2D" parent="." unique_id=508758926]
+position = Vector2(300.25, 231.12497)
+scale = Vector2(0.03826967, 0.030223237)
+texture = ExtResource("6_lvflq")
+metadata/_edit_lock_ = true
+
+[node name="GheeSpoon" type="Sprite2D" parent="." unique_id=1987203227]
+position = Vector2(308.25, 215.12498)
+scale = Vector2(0.03100057, 0.026254782)
+texture = ExtResource("7_a86gk")
+script = ExtResource("7_msjai")
+
+[node name="FrontOfGhee" type="Sprite2D" parent="." unique_id=662045357]
+position = Vector2(299.25003, 232.12497)
+scale = Vector2(0.035917904, 0.032604318)
+texture = ExtResource("9_f0nsc")
+metadata/_edit_lock_ = true
+
+[node name="bubbling" type="Area2D" parent="." unique_id=976405632]
+
+[node name="bubbling" type="AnimatedSprite2D" parent="bubbling" unique_id=1870148903]
+position = Vector2(871, 174)
+scale = Vector2(0.034635104, 0.026405964)
+sprite_frames = SubResource("SpriteFrames_5eycr")
+animation = &"bubbling"
+frame = 2
+frame_progress = 0.5655456
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="bubbling" unique_id=1087585700]
+shape = SubResource("CircleShape2D_xl21k")
+
+[node name="Milk" type="Sprite2D" parent="." unique_id=159509754]
+position = Vector2(451, 553)
+scale = Vector2(0.03189136, 0.031873614)
+texture = ExtResource("14_k5hud")
+script = ExtResource("11_n8rak")
+
+[node name="EmptyBowl" type="Sprite2D" parent="." unique_id=112060296]
+position = Vector2(175.00002, 452)
+scale = Vector2(0.07069556, 0.063948795)
+texture = ExtResource("16_qjkk0")
+metadata/_edit_lock_ = true
+
+[node name="reduced_carrots" type="Area2D" parent="." unique_id=1979039503]
+position = Vector2(847.12, 166.58)
+rotation = 0.04363323
+scale = Vector2(0.039229754, 0.037125178)
+
+[node name="reduced_carrots" type="AnimatedSprite2D" parent="reduced_carrots" unique_id=1860924178]
+position = Vector2(-9280.497, 855.84863)
+rotation = -0.02617994
+scale = Vector2(1, 1.0831712)
+sprite_frames = SubResource("SpriteFrames_b4i1l")
+animation = &"reduced_carrots"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="reduced_carrots" unique_id=939116]
+position = Vector2(-31.39115, -68.11261)
+scale = Vector2(0.9999999, 1)
+shape = SubResource("CircleShape2D_ghu5u")
+
+[node name="GratedCarrots" type="Sprite2D" parent="." unique_id=1347468638]
+position = Vector2(181.99998, 455)
+scale = Vector2(0.0359179, 0.039356977)
+texture = ExtResource("21_ps5ry")
+script = ExtResource("18_hg527")
+
+[node name="Sugar" type="Sprite2D" parent="." unique_id=1553990314]
+position = Vector2(802.00006, 517)
+scale = Vector2(0.047890536, 0.04671442)
+texture = ExtResource("23_yj838")
+metadata/_edit_lock_ = true
+
+[node name="SmallSugar" type="Sprite2D" parent="." unique_id=2009833057]
+position = Vector2(790.5, 539.6328)
+scale = Vector2(0.056870017, 0.043687634)
+texture = ExtResource("24_xrwhv")
+script = ExtResource("21_kffoi")
+
+[node name="SmallCradomom" type="Sprite2D" parent="." unique_id=1790283933]
+position = Vector2(896, 243)
+scale = Vector2(0.008124284, 0.00924715)
+texture = ExtResource("26_fg7n7")
+script = ExtResource("23_wmte1")
+
+[node name="Empty" type="Sprite2D" parent="." unique_id=623959054]
+position = Vector2(1001, 381)
+scale = Vector2(0.023588905, 0.023231205)
+texture = ExtResource("28_6g4uc")
+metadata/_edit_lock_ = true
+
+[node name="CardomomPowder" type="Sprite2D" parent="." unique_id=1104947263]
+position = Vector2(892, 233)
+scale = Vector2(0.022662422, 0.022928804)
+texture = ExtResource("29_wqjgv")
+metadata/_edit_lock_ = true
+
+[node name="CrushedNuts" type="Sprite2D" parent="." unique_id=209677713]
+position = Vector2(995, 379.5)
+scale = Vector2(0.02166477, 0.022777662)
+texture = ExtResource("30_pbdye")
+script = ExtResource("27_1k8pe")
+
+[node name="pouring_milk" type="Area2D" parent="." unique_id=1153167664]
+
+[node name="pouring_milk" type="AnimatedSprite2D" parent="pouring_milk" unique_id=1865519593]
+position = Vector2(862, 81)
+scale = Vector2(0.051667664, 0.05127494)
+sprite_frames = SubResource("SpriteFrames_a1kdx")
+animation = &"pouring_milk"
+frame = 9
+frame_progress = 1.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="pouring_milk" unique_id=210515467]
+shape = SubResource("CircleShape2D_msjai")
+
+[node name="milky_carrots" type="Area2D" parent="." unique_id=1475668588]
+
+[node name="milky_carrots" type="AnimatedSprite2D" parent="milky_carrots" unique_id=350995665]
+position = Vector2(873, 167.00002)
+rotation = 0.04363323
+scale = Vector2(0.039229758, 0.037125178)
+sprite_frames = SubResource("SpriteFrames_4g1xg")
+animation = &"milky_carrots"
+frame = 11
+frame_progress = 1.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="milky_carrots" unique_id=1060703922]
+shape = SubResource("CircleShape2D_m3m7y")
+
+[node name="finished_halwa" type="Area2D" parent="." unique_id=1999894310]
+
+[node name="finished_halwa" type="AnimatedSprite2D" parent="finished_halwa" unique_id=32471094]
+position = Vector2(483.75, 120.99999)
+scale = Vector2(0.041975483, 0.04520258)
+sprite_frames = SubResource("SpriteFrames_1k8pe")
+animation = &"finished_halwa"
+frame = 7
+frame_progress = 1.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="finished_halwa" unique_id=1521298037]
+shape = SubResource("CircleShape2D_hv1ph")
+
+[node name="Happy_Ba" type="Area2D" parent="." unique_id=1717295570]
+
+[node name="happy_ba" type="AnimatedSprite2D" parent="Happy_Ba" unique_id=1439386378]
+position = Vector2(551, 340)
+scale = Vector2(0.15607192, 0.1560719)
+sprite_frames = SubResource("SpriteFrames_m3m7y")
+animation = &"happy_ba"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Happy_Ba" unique_id=1932155073]
+shape = SubResource("CircleShape2D_a1kdx")
+
+[node name="Wrong_Order" type="Sprite2D" parent="." unique_id=932345353]
+position = Vector2(322.00003, 585.00006)
+scale = Vector2(0.059578065, 0.060860883)
+texture = ExtResource("35_msjai")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Wrong_Order" unique_id=1471052454]
+libraries/ = SubResource("AnimationLibrary_n8rak")
+
+[node name="ghee_" type="Sprite2D" parent="." unique_id=1052197090]
+position = Vector2(356, 308)
+scale = Vector2(0.1132349, 0.114439)
+texture = ExtResource("55_op6k6")
+
+[node name="swaad" type="Area2D" parent="." unique_id=919722049]
+
+[node name="swaad" type="AnimatedSprite2D" parent="swaad" unique_id=1874765216]
+position = Vector2(583.5, 301.50003)
+scale = Vector2(0.17574115, 0.16710342)
+sprite_frames = SubResource("SpriteFrames_pmukx")
+animation = &"swaad"
+frame = 23
+frame_progress = 1.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="swaad" unique_id=2122159804]
+shape = SubResource("CircleShape2D_eu0mi")
+
+[node name="button_manager" type="Control" parent="." unique_id=415914670]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="back" type="Button" parent="button_manager" unique_id=1383248652]
+layout_mode = 0
+offset_left = -4.0
+offset_top = -14.0
+offset_right = 136.0
+offset_bottom = 110.0
+icon = ExtResource("54_0yemd")
+flat = true
+expand_icon = true
+
+[node name="cooking" type="AudioStreamPlayer" parent="." unique_id=1016937922]
+stream = ExtResource("56_0yemd")
+volume_db = -6.5
+autoplay = true
+parameters/looping = true
+
+[node name="wrongordersfx" type="AudioStreamPlayer" parent="." unique_id=1518491831]
+stream = ExtResource("57_0yemd")
+volume_db = -6.5
+autoplay = true
+
+[node name="swaadsfx" type="AudioStreamPlayer" parent="." unique_id=1825795714]
+stream = ExtResource("58_0yemd")
+volume_db = -1.5
+autoplay = true
+
+[connection signal="animation_finished" from="bubbling/bubbling" to="." method="_on_bubbling_animation_finished"]
+[connection signal="animation_finished" from="reduced_carrots/reduced_carrots" to="." method="_on_reduced_carrots_animation_finished"]
+[connection signal="animation_finished" from="pouring_milk/pouring_milk" to="." method="_on_pouring_milk_animation_finished"]
+[connection signal="animation_finished" from="milky_carrots/milky_carrots" to="." method="_on_milky_carrots_animation_finished"]
+[connection signal="animation_finished" from="finished_halwa/finished_halwa" to="." method="_on_finished_halwa_animation_finished"]
+[connection signal="animation_finished" from="Happy_Ba/happy_ba" to="." method="_on_happy_ba_animation_finished"]
+[connection signal="animation_finished" from="swaad/swaad" to="." method="_on_swaad_animation_finished"]
+[connection signal="pressed" from="button_manager/back" to="." method="_on_back_pressed"]

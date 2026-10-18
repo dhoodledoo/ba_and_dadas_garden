@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://dhso2ow7kg5sa"]
+
+[ext_resource type="Script" uid="uid://d22g14gmttii" path="res://scripts/ending_mango.gd" id="1_hrmhg"]
+[ext_resource type="VideoStream" uid="uid://de743s0bsxs3k" path="res://assets/cut_scenes/ending_mango.ogv" id="2_xg4mq"]
+[ext_resource type="AudioStream" uid="uid://dh3alrhashsg4" path="res://assets/sounds/Talking.ogg" id="3_xg4mq"]
+
+[node name="ending_mango" type="Control" unique_id=427681208]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_hrmhg")
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="." unique_id=1153936793]
+layout_mode = 0
+offset_right = 1152.0
+offset_bottom = 648.0
+stream = ExtResource("2_xg4mq")
+autoplay = true
+expand = true
+
+[node name="talking" type="AudioStreamPlayer" parent="." unique_id=1598542276]
+stream = ExtResource("3_xg4mq")
+autoplay = true
+parameters/looping = true
+
+[connection signal="finished" from="VideoStreamPlayer" to="." method="_on_video_stream_player_finished"]

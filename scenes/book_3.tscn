@@ -1,0 +1,57 @@
+[gd_scene format=3 uid="uid://daboco4fcve3e"]
+
+[ext_resource type="Script" uid="uid://dkruunsmfcs7d" path="res://scripts/book_3.gd" id="1_rlbt7"]
+[ext_resource type="Texture2D" uid="uid://bsnbqea8wc315" path="res://assets/wood_simple.jpg" id="2_gxoao"]
+[ext_resource type="Texture2D" uid="uid://bthkr88kada44" path="res://assets/book/Lemon.png" id="3_osnvp"]
+[ext_resource type="Texture2D" uid="uid://v4wmsopjxcw8" path="res://assets/buttons/Next.png" id="3_rlbt7"]
+[ext_resource type="Texture2D" uid="uid://dr6l3sytm4yjx" path="res://assets/buttons/Back.png" id="5_ldw8g"]
+[ext_resource type="AudioStream" uid="uid://blup1puf50e4b" path="res://assets/sounds/bg_cooking.ogg" id="6_i1egn"]
+
+[node name="book_3" type="Node2D" unique_id=7675264]
+script = ExtResource("1_rlbt7")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1497452968]
+offset_right = 1152.0
+offset_bottom = 648.0
+texture = ExtResource("2_gxoao")
+expand_mode = 1
+metadata/_edit_lock_ = true
+
+[node name="Lemon" type="Sprite2D" parent="." unique_id=1167050296]
+position = Vector2(578, 324)
+scale = Vector2(0.095085405, 0.090097636)
+texture = ExtResource("3_osnvp")
+
+[node name="button_manager" type="Control" parent="." unique_id=1783055981]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="next" type="Button" parent="button_manager" unique_id=1357590442]
+layout_mode = 0
+offset_left = 896.0
+offset_top = 490.0
+offset_right = 1127.0
+offset_bottom = 661.0
+icon = ExtResource("3_rlbt7")
+flat = true
+expand_icon = true
+
+[node name="back" type="Button" parent="button_manager" unique_id=729589585]
+layout_mode = 0
+offset_left = 32.0
+offset_top = 488.0
+offset_right = 263.0
+offset_bottom = 659.0
+icon = ExtResource("5_ldw8g")
+flat = true
+expand_icon = true
+
+[node name="cut_scene" type="AudioStreamPlayer" parent="." unique_id=891334596]
+stream = ExtResource("6_i1egn")
+autoplay = true
+parameters/looping = true
+
+[connection signal="pressed" from="button_manager/next" to="." method="_on_next_pressed"]
+[connection signal="pressed" from="button_manager/back" to="." method="_on_back_pressed"]

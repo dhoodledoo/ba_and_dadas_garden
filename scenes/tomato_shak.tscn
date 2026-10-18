@@ -1,0 +1,560 @@
+[gd_scene format=3 uid="uid://be8ee28gkaeyp"]
+
+[ext_resource type="Script" uid="uid://cyva7i6lfkwwl" path="res://scripts/tomato_nu_shak.gd" id="1_8uv4p"]
+[ext_resource type="Texture2D" uid="uid://bsnbqea8wc315" path="res://assets/wood_simple.jpg" id="2_m2f4q"]
+[ext_resource type="Texture2D" uid="uid://btj0jq4q8cono" path="res://assets/sprite_frames/gas_and_fire/Untitled_Artwork-1 2.png" id="3_vqy58"]
+[ext_resource type="Texture2D" uid="uid://dpd327tqir0ve" path="res://assets/sprite_frames/gas_and_fire/Untitled_Artwork-2 2.png" id="4_fbsnn"]
+[ext_resource type="Texture2D" uid="uid://s13hh5jwf51i" path="res://assets/tomato_shak/ingredients/pan.png" id="5_7kqj3"]
+[ext_resource type="Texture2D" uid="uid://3o08aq6x6w2s" path="res://assets/sprite_frames/pouring_oil/1.png" id="6_7vlb6"]
+[ext_resource type="Texture2D" uid="uid://cmakpfknfxvfg" path="res://assets/sprite_frames/pouring_oil/2.png" id="7_26b6s"]
+[ext_resource type="Texture2D" uid="uid://bvg43nkaavytr" path="res://assets/sprite_frames/pouring_oil/3.png" id="8_07w67"]
+[ext_resource type="Texture2D" uid="uid://dq01dlsim7ppa" path="res://assets/sprite_frames/pouring_oil/4.png" id="9_52i0i"]
+[ext_resource type="Texture2D" uid="uid://be8ivlssmne41" path="res://assets/sprite_frames/pouring_oil/5.png" id="10_sy4sd"]
+[ext_resource type="Texture2D" uid="uid://btypoq04vkg2p" path="res://assets/sprite_frames/pouring_oil/6.png" id="11_dwqpb"]
+[ext_resource type="Texture2D" uid="uid://dhiyprenbm7kv" path="res://assets/sprite_frames/pouring_oil/7.png" id="12_jwnut"]
+[ext_resource type="Texture2D" uid="uid://bltdb1du8edk5" path="res://assets/sprite_frames/pouring_oil/8.png" id="13_sqm25"]
+[ext_resource type="Texture2D" uid="uid://cgrmr30qtsyay" path="res://assets/sprite_frames/pouring_oil/9.png" id="14_p7hcf"]
+[ext_resource type="Texture2D" uid="uid://bjogis3oemuqr" path="res://assets/sprite_frames/pouring_oil/10.png" id="15_ehced"]
+[ext_resource type="Texture2D" uid="uid://805cq7qowh1h" path="res://assets/sprite_frames/pouring_oil/11.png" id="16_oi10i"]
+[ext_resource type="Texture2D" uid="uid://dqdw6cosis020" path="res://assets/sprite_frames/pouring_oil/12.png" id="17_wt3t7"]
+[ext_resource type="Texture2D" uid="uid://3j5r21722ffh" path="res://assets/sprite_frames/pouring_oil/13.png" id="18_a0mtb"]
+[ext_resource type="Texture2D" uid="uid://6ld8ybwqx63j" path="res://assets/sprite_frames/pouring_oil/14.png" id="19_rahw3"]
+[ext_resource type="Texture2D" uid="uid://dpivbnxh7fxx" path="res://assets/sprite_frames/pouring_oil/15.png" id="20_pt0i5"]
+[ext_resource type="Texture2D" uid="uid://b3p3p1o7immgw" path="res://assets/sprite_frames/pouring_oil/16.png" id="21_idd3m"]
+[ext_resource type="Texture2D" uid="uid://bsox7bs5ifwl8" path="res://assets/sprite_frames/frying_oil/1.png" id="22_52i0i"]
+[ext_resource type="Texture2D" uid="uid://dit63k824a4ps" path="res://assets/sprite_frames/frying_oil/2.png" id="23_sy4sd"]
+[ext_resource type="Texture2D" uid="uid://dgdshq8te5riy" path="res://assets/sprite_frames/frying_oil/3.png" id="24_dwqpb"]
+[ext_resource type="Texture2D" uid="uid://0udm3oa1bd53" path="res://assets/sprite_frames/frying_oil/4.png" id="25_jwnut"]
+[ext_resource type="Texture2D" uid="uid://bc6tcm30b4uws" path="res://assets/sprite_frames/first_set/1.png" id="26_sqm25"]
+[ext_resource type="Texture2D" uid="uid://djev07i0onrum" path="res://assets/sprite_frames/first_set/2.png" id="27_p7hcf"]
+[ext_resource type="Texture2D" uid="uid://cf082dt3cukdy" path="res://assets/sprite_frames/first_set/3.png" id="28_ehced"]
+[ext_resource type="Texture2D" uid="uid://dox0rx5rmrvfy" path="res://assets/sprite_frames/first_set/4.png" id="29_oi10i"]
+[ext_resource type="Texture2D" uid="uid://b4un6bd4mp4a0" path="res://assets/tomato_shak/ingredients/empty.png" id="37_nsysb"]
+[ext_resource type="Texture2D" uid="uid://bu7mpa2tjwsk" path="res://assets/tomato_shak/ingredients/Hing.png" id="38_4i214"]
+[ext_resource type="Texture2D" uid="uid://pw0vxdxklt6q" path="res://assets/sprite_frames/happy_ba/1.png" id="46_26b6s"]
+[ext_resource type="Texture2D" uid="uid://mcntu3oicl47" path="res://assets/sprite_frames/happy_ba/2.png" id="47_07w67"]
+[ext_resource type="Texture2D" uid="uid://bn00df754ee5p" path="res://assets/tomato_shak/ingredients/spring_onion.png" id="47_svvvr"]
+[ext_resource type="Texture2D" uid="uid://cgr6o4hlfoige" path="res://assets/tomato_shak/ingredients/small_hing.png" id="55_oorj6"]
+[ext_resource type="Script" uid="uid://bs0chxf7iaddd" path="res://scripts/small_hing.gd" id="56_ce5jb"]
+[ext_resource type="Texture2D" uid="uid://dplnbqnb0lv6d" path="res://assets/tomato_shak/ingredients/jeeru (2).png" id="57_1ti46"]
+[ext_resource type="Script" uid="uid://n4hmol2ceprg" path="res://scripts/jeeru(2).gd" id="58_fk6kb"]
+[ext_resource type="Texture2D" uid="uid://d15xret7rop4g" path="res://assets/tomato_shak/ingredients/back_of_oil.png" id="67_07kt8"]
+[ext_resource type="Texture2D" uid="uid://bcnp82m0d6lu8" path="res://assets/tomato_shak/ingredients/oil_spoon.png" id="68_f6bg2"]
+[ext_resource type="Script" uid="uid://qho3oipfkoy0" path="res://scripts/oil.gd" id="69_db2lt"]
+[ext_resource type="Texture2D" uid="uid://c5hwu1admquys" path="res://assets/tomato_shak/ingredients/front_oil.png" id="70_kotva"]
+[ext_resource type="Texture2D" uid="uid://cqlm1saxgvto0" path="res://assets/tomato_shak/ingredients/chopped_spring_onion.png" id="71_ulg5l"]
+[ext_resource type="Texture2D" uid="uid://bp4k5i7wop7cn" path="res://assets/Ghost.png" id="72_j5afy"]
+[ext_resource type="Texture2D" uid="uid://dctx33y3h1kcf" path="res://assets/buttons/recipe_book.png" id="72_yuyfv"]
+[ext_resource type="Texture2D" uid="uid://c4fa7dy8u3bnu" path="res://assets/labels/hing.PNG" id="81_oorj6"]
+[ext_resource type="Texture2D" uid="uid://bwetetieiyqwn" path="res://assets/labels/cumin.PNG" id="83_yuyfv"]
+[ext_resource type="AudioStream" uid="uid://dg2kovon12gd5" path="res://assets/sounds/fun.ogg" id="84_yuyfv"]
+[ext_resource type="AudioStream" uid="uid://b5fpmsktt5sew" path="res://assets/sounds/Wrongordersfx.ogg" id="85_yuyfv"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_02erb"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_vqy58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_fbsnn")
+}],
+"loop": true,
+"name": &"gas_and_fire",
+"speed": 7.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_s4qsk"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_xh6ir"]
+radius = 637.18164
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_chali"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_7vlb6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_26b6s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_07w67")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_52i0i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_sy4sd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_dwqpb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_jwnut")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_sqm25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_p7hcf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_ehced")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_oi10i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_wt3t7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_a0mtb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_rahw3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_pt0i5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_idd3m")
+}],
+"loop": false,
+"name": &"spoon",
+"speed": 12.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_nrs25"]
+radius = 26.019224
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_h2vgl"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("22_52i0i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_sy4sd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_dwqpb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_jwnut")
+}],
+"loop": true,
+"name": &"bubbling",
+"speed": 8.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_w16ur"]
+radius = 22.203604
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_0uoys"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("26_sqm25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_p7hcf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_ehced")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_oi10i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_ehced")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_oi10i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_ehced")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_oi10i")
+}],
+"loop": false,
+"name": &"first_set",
+"speed": 8.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_a285p"]
+radius = 946.69385
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_1t5pe"]
+radius = 4229.866
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_r2sjb"]
+radius = 1129.9984
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_t7ufo"]
+radius = 792.0914
+
+[sub_resource type="GDScript" id="GDScript_dmbla"]
+script/source = "extends Sprite2D
+
+signal drag_ended
+
+var is_dragging = false
+var drag_offset = Vector2.ZERO
+var original_position = Vector2.ZERO
+var mouse_offset # on click
+var delay = 10
+
+func _ready():
+	original_position = position
+
+		
+func _input(event):
+	if event is InputEventMouseButton:
+		if event.button_index == MOUSE_BUTTON_LEFT:
+			if event.pressed and get_rect().has_point(to_local(event.position)):
+				is_dragging = true
+				drag_offset = position - event.position
+				get_viewport().set_input_as_handled()
+			elif not event.pressed and is_dragging:
+				is_dragging = false
+				emit_signal(\"drag_ended\", position)
+	elif event is InputEventMouseMotion and is_dragging:
+		global_position = event.position + drag_offset
+"
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_c7efe"]
+radius = 1193.7577
+
+[sub_resource type="Animation" id="Animation_g4q2h"]
+length = 0.001
+tracks/0/type = "bezier"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position:x")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"handle_modes": PackedInt32Array(0),
+"points": PackedFloat32Array(322.00003, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0)
+}
+tracks/1/type = "bezier"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:position:y")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"handle_modes": PackedInt32Array(0),
+"points": PackedFloat32Array(585.00006, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0)
+}
+tracks/2/type = "bezier"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath(".:rotation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"handle_modes": PackedInt32Array(0),
+"points": PackedFloat32Array(0, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0)
+}
+
+[sub_resource type="Animation" id="Animation_r8ui7"]
+resource_name = "wrong_order"
+length = 5.0
+tracks/0/type = "bezier"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position:x")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"handle_modes": PackedInt32Array(2, 0, 2, 0),
+"points": PackedFloat32Array(1256, -0.25, 0, 0.25, 0, 1078, -0.49833333, 29.666666, 0, 0, 1059, -0.1555556, -9.439397, 0.3333333, 20.22727, 1256, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0.01, 2.0666666, 3.0000002, 5)
+}
+tracks/1/type = "bezier"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:position:y")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"handle_modes": PackedInt32Array(2, 0, 2, 0),
+"points": PackedFloat32Array(2, -0.25, 0, 0.25, 0, 101.99997, -0.49833333, -16.666662, 0, 0, 112.000015, -0.1555556, 5.30303, 0.3333333, -11.363631, 2, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0.01, 2.0666666, 3.0000002, 5)
+}
+tracks/2/type = "bezier"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath(".:rotation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"handle_modes": PackedInt32Array(2, 0, 2, 0),
+"points": PackedFloat32Array(-0.3700098, -0.25, 0, 0.25, 0, -0.3700098, -0.49833333, 0, 0, 0, -0.3700098, -0.1555556, 0, 0.3333333, 0, -0.3700098, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0.01, 2.0666666, 3.0000002, 5)
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_ppjpm"]
+_data = {
+&"RESET": SubResource("Animation_g4q2h"),
+&"wrong_order": SubResource("Animation_r8ui7")
+}
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_52i0i"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("46_26b6s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_07w67")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_26b6s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_07w67")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_26b6s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_07w67")
+}],
+"loop": false,
+"name": &"happy_ba",
+"speed": 6.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_sy4sd"]
+
+[node name="tomato_shak" type="Node2D" unique_id=958718055]
+script = ExtResource("1_8uv4p")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1892924665]
+offset_right = 1155.0
+offset_bottom = 652.0
+texture = ExtResource("2_m2f4q")
+expand_mode = 1
+metadata/_edit_lock_ = true
+
+[node name="gasandfire" type="Area2D" parent="." unique_id=242335239]
+metadata/_edit_lock_ = true
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="gasandfire" unique_id=1035513525]
+position = Vector2(591, 204.00002)
+scale = Vector2(0.097990304, 0.09514211)
+sprite_frames = SubResource("SpriteFrames_02erb")
+animation = &"gas_and_fire"
+frame_progress = 0.6644099
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="gasandfire" unique_id=374915596]
+shape = SubResource("CircleShape2D_s4qsk")
+
+[node name="pan" type="Sprite2D" parent="." unique_id=478383860]
+position = Vector2(604.5625, 144)
+scale = Vector2(0.0614132, 0.059866957)
+texture = ExtResource("5_7kqj3")
+
+[node name="StaticBody2D" type="Area2D" parent="pan" unique_id=1630609035]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="pan/StaticBody2D" unique_id=1502542136]
+position = Vector2(742.2116, -1135.3805)
+shape = SubResource("CircleShape2D_xh6ir")
+debug_color = Color(0.86969143, 0.35180834, 0, 0.41960785)
+
+[node name="spoon" type="Area2D" parent="." unique_id=1470237096]
+
+[node name="spoon" type="AnimatedSprite2D" parent="spoon" unique_id=1923498836]
+position = Vector2(681, 82)
+scale = Vector2(0.036712933, 0.032176454)
+sprite_frames = SubResource("SpriteFrames_chali")
+animation = &"spoon"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="spoon" unique_id=1703749938]
+position = Vector2(707, 9)
+shape = SubResource("CircleShape2D_nrs25")
+debug_color = Color(0.3744043, 0.6148865, 1.92523e-07, 0.41960785)
+
+[node name="bubbling" type="Area2D" parent="." unique_id=1345831146]
+
+[node name="bubbling" type="AnimatedSprite2D" parent="bubbling" unique_id=1466694778]
+position = Vector2(683, 144)
+scale = Vector2(0.023161326, 0.024289453)
+sprite_frames = SubResource("SpriteFrames_h2vgl")
+animation = &"bubbling"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="bubbling" unique_id=1804631133]
+position = Vector2(687, 152)
+shape = SubResource("CircleShape2D_w16ur")
+debug_color = Color(0.92979836, 3.2343865e-05, 0.6613052, 0.41960785)
+
+[node name="first_set" type="Area2D" parent="." unique_id=1211109700]
+position = Vector2(677, 141)
+scale = Vector2(0.02993158, 0.02781697)
+
+[node name="first_set" type="AnimatedSprite2D" parent="first_set" unique_id=678705927]
+position = Vector2(33.409546, -35.94928)
+scale = Vector2(1.0000001, 1)
+sprite_frames = SubResource("SpriteFrames_0uoys")
+animation = &"first_set"
+frame = 3
+frame_progress = 1.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="first_set" unique_id=1621490272]
+position = Vector2(-66.81906, 0.00024414063)
+shape = SubResource("CircleShape2D_a285p")
+debug_color = Color(0.37097886, 0.61560863, 1.92523e-07, 0.41960785)
+
+[node name="Emptyspringonion" type="Sprite2D" parent="." unique_id=2135926417]
+position = Vector2(515, 561)
+scale = Vector2(0.021604089, 0.018862814)
+texture = ExtResource("37_nsysb")
+
+[node name="hing" type="Sprite2D" parent="." unique_id=2135065525]
+position = Vector2(155, 475.99997)
+scale = Vector2(0.024194708, 0.024654781)
+texture = ExtResource("38_4i214")
+
+[node name="SpringOnion" type="Sprite2D" parent="." unique_id=1055601737]
+position = Vector2(359, 531)
+scale = Vector2(0.04188641, 0.043149054)
+texture = ExtResource("47_svvvr")
+
+[node name="EmptyJeeru" type="Sprite2D" parent="." unique_id=1118239003]
+position = Vector2(717, 505)
+scale = Vector2(0.018137097, 0.017936777)
+texture = ExtResource("37_nsysb")
+
+[node name="SmallHing" type="Sprite2D" parent="." unique_id=111546927]
+position = Vector2(154, 480.99997)
+scale = Vector2(0.007340362, 0.008440861)
+texture = ExtResource("55_oorj6")
+script = ExtResource("56_ce5jb")
+
+[node name="Area2D" type="Area2D" parent="SmallHing" unique_id=1473170204]
+position = Vector2(953.63184, 355.41864)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="SmallHing/Area2D" unique_id=40927231]
+position = Vector2(-817.39795, -118.47182)
+shape = SubResource("CircleShape2D_1t5pe")
+
+[node name="Jeeru" type="Sprite2D" parent="." unique_id=465678176]
+position = Vector2(711, 511)
+scale = Vector2(0.024800438, 0.021139888)
+texture = ExtResource("57_1ti46")
+script = ExtResource("58_fk6kb")
+
+[node name="Area2D" type="Area2D" parent="Jeeru" unique_id=441132199]
+position = Vector2(120.96585, -189.21582)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Jeeru/Area2D" unique_id=575198053]
+position = Vector2(443.54028, -94.6084)
+shape = SubResource("CircleShape2D_r2sjb")
+
+[node name="BackOfOil" type="Sprite2D" parent="." unique_id=870803771]
+position = Vector2(972.7499, 513)
+scale = Vector2(0.04639394, 0.068534575)
+texture = ExtResource("67_07kt8")
+
+[node name="oil" type="Sprite2D" parent="." unique_id=353339133]
+position = Vector2(965, 514.99994)
+scale = Vector2(0.051881418, 0.055785026)
+texture = ExtResource("68_f6bg2")
+script = ExtResource("69_db2lt")
+
+[node name="Area2D" type="Area2D" parent="oil" unique_id=704493466]
+position = Vector2(501.14285, -537.77704)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="oil/Area2D" unique_id=567957175]
+position = Vector2(-269.84613, -752.8902)
+shape = SubResource("CircleShape2D_t7ufo")
+
+[node name="FrontOfOil" type="Sprite2D" parent="." unique_id=1771543672]
+position = Vector2(970, 509)
+scale = Vector2(0.03734322, 0.039709736)
+texture = ExtResource("70_kotva")
+
+[node name="ChoppedSpringOnion" type="Sprite2D" parent="." unique_id=1825004779]
+position = Vector2(511, 551)
+scale = Vector2(0.02191419, 0.02273987)
+texture = ExtResource("71_ulg5l")
+script = SubResource("GDScript_dmbla")
+
+[node name="Area2D" type="Area2D" parent="ChoppedSpringOnion" unique_id=359903321]
+position = Vector2(91.265625, 351.80518)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ChoppedSpringOnion/Area2D" unique_id=1076612632]
+position = Vector2(-91.26514, 175.90283)
+shape = SubResource("CircleShape2D_c7efe")
+
+[node name="button_manager" type="Control" parent="." unique_id=694583723]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="back" type="Button" parent="button_manager" unique_id=687348721]
+layout_mode = 0
+offset_left = 37.0
+offset_top = -1.0
+offset_right = 177.0
+offset_bottom = 123.0
+icon = ExtResource("72_yuyfv")
+flat = true
+expand_icon = true
+
+[node name="hing_" type="Sprite2D" parent="." unique_id=117474655]
+position = Vector2(127.999985, 531)
+scale = Vector2(0.10176666, 0.11132975)
+texture = ExtResource("81_oorj6")
+metadata/_edit_lock_ = true
+
+[node name="cumin" type="Sprite2D" parent="." unique_id=297106883]
+position = Vector2(772, 559)
+scale = Vector2(0.10176666, 0.11132975)
+texture = ExtResource("83_yuyfv")
+metadata/_edit_lock_ = true
+
+[node name="Wrong_Order" type="Sprite2D" parent="." unique_id=807780925]
+position = Vector2(322.00003, 585.00006)
+scale = Vector2(0.059578065, 0.060860883)
+texture = ExtResource("72_j5afy")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Wrong_Order" unique_id=2047487802]
+libraries/ = SubResource("AnimationLibrary_ppjpm")
+
+[node name="Happy_Ba" type="Area2D" parent="." unique_id=12743230]
+
+[node name="happy_ba" type="AnimatedSprite2D" parent="Happy_Ba" unique_id=1549830907]
+position = Vector2(551, 340)
+scale = Vector2(0.15607192, 0.1560719)
+sprite_frames = SubResource("SpriteFrames_52i0i")
+animation = &"happy_ba"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Happy_Ba" unique_id=104105980]
+shape = SubResource("CircleShape2D_sy4sd")
+
+[node name="cooking" type="AudioStreamPlayer" parent="." unique_id=238653627]
+stream = ExtResource("84_yuyfv")
+volume_db = -6.5
+autoplay = true
+parameters/looping = true
+
+[node name="wrongordersfx" type="AudioStreamPlayer" parent="." unique_id=1755888275]
+stream = ExtResource("85_yuyfv")
+volume_db = -6.5
+autoplay = true
+
+[connection signal="animation_finished" from="spoon/spoon" to="." method="_on_spoon_animation_finished"]
+[connection signal="animation_finished" from="bubbling/bubbling" to="." method="_on_bubbling_animation_finished"]
+[connection signal="animation_finished" from="first_set/first_set" to="." method="_on_first_set_animation_finished"]
+[connection signal="pressed" from="button_manager/back" to="." method="_on_back_pressed"]
+[connection signal="animation_finished" from="Wrong_Order/AnimationPlayer" to="." method="_on_wrong_order_animation_finished"]
+[connection signal="animation_finished" from="Happy_Ba/happy_ba" to="." method="_on_happy_ba_animation_finished"]

@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://01nch7cbwd3b"]
+
+[ext_resource type="VideoStream" uid="uid://dpsi7it22stv4" path="res://assets/cut_scenes/limbu_atahnu_cut_scene.ogv" id="1_8ry22"]
+[ext_resource type="Script" uid="uid://s3ryx7vyybqg" path="res://scripts/limbu_atahnu_cut_scene.gd" id="1_70f77"]
+[ext_resource type="AudioStream" uid="uid://blup1puf50e4b" path="res://assets/sounds/bg_cooking.ogg" id="3_rbklf"]
+
+[node name="limbu_atahnu_cut_scene" type="Control" unique_id=1629747111]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_70f77")
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="." unique_id=1843749622]
+layout_mode = 0
+offset_right = 1152.0
+offset_bottom = 648.0
+stream = ExtResource("1_8ry22")
+autoplay = true
+expand = true
+metadata/_edit_lock_ = true
+
+[node name="cut_scene" type="AudioStreamPlayer" parent="." unique_id=1541841351]
+stream = ExtResource("3_rbklf")
+autoplay = true
+parameters/looping = true
+
+[connection signal="finished" from="VideoStreamPlayer" to="." method="_on_video_stream_player_finished"]

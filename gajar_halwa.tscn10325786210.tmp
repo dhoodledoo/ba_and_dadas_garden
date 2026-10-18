@@ -1,0 +1,564 @@
+[gd_scene format=3 uid="uid://bmlcvxis3ijb1"]
+
+[ext_resource type="Script" uid="uid://be66n6fhe020" path="res://scenes/gajar_halwa.gd" id="1_a1kdx"]
+[ext_resource type="Texture2D" uid="uid://dev0bmi4a4rdp" path="res://scenes/game/tomato_shak/ingredients/wood_simple.jpg" id="1_s18jf"]
+[ext_resource type="Texture2D" uid="uid://bfv4vgixylchs" path="res://assets/gas_and_fire/Untitled_Artwork-1 2.png" id="2_4jj35"]
+[ext_resource type="Texture2D" uid="uid://cyemvcul5bok0" path="res://assets/gas_and_fire/Untitled_Artwork-2 2.png" id="3_tqafl"]
+[ext_resource type="Texture2D" uid="uid://c3j5kyh2hah2t" path="res://scenes/game/gajar_halwa/back_of_ghee.png" id="4_vbaqd"]
+[ext_resource type="Texture2D" uid="uid://dwoswb10wcsvc" path="res://scenes/game/gajar_halwa/ghee_spoon.png" id="5_ph3x2"]
+[ext_resource type="Texture2D" uid="uid://f73j4cdxemgf" path="res://scenes/game/gajar_halwa/front_of_ghee.png" id="6_nqnl7"]
+[ext_resource type="Script" uid="uid://l0e4nh8pwli4" path="res://scenes/ghee_spoon.gd" id="7_msjai"]
+[ext_resource type="Texture2D" uid="uid://c70l6nd54kslw" path="res://scenes/game/gajar_halwa/blue_pot.png" id="7_odm7w"]
+[ext_resource type="Texture2D" uid="uid://crws2sqxeruj5" path="res://scenes/game/gajar_halwa/milk.png" id="8_fh082"]
+[ext_resource type="Texture2D" uid="uid://csqv8y7itswqo" path="res://scenes/game/mango_shrikand/Empty_bowl.png" id="9_i5jm6"]
+[ext_resource type="Texture2D" uid="uid://cknyf3cxom7g" path="res://scenes/game/gajar_halwa/grated_carrots.png" id="10_5eycr"]
+[ext_resource type="Texture2D" uid="uid://cqjdv1wnwwi8o" path="res://assets/frying_oil/1.png" id="10_nqnl7"]
+[ext_resource type="Script" uid="uid://bitgymo6m3mot" path="res://scenes/milk.gd" id="11_n8rak"]
+[ext_resource type="Texture2D" uid="uid://clg7qenp5g6pr" path="res://assets/frying_oil/2.png" id="11_odm7w"]
+[ext_resource type="Texture2D" uid="uid://tj5o2mrwannx" path="res://assets/frying_oil/3.png" id="12_fh082"]
+[ext_resource type="Texture2D" uid="uid://dc4jjg6byhxqn" path="res://assets/frying_oil/4.png" id="13_i5jm6"]
+[ext_resource type="Texture2D" uid="uid://p4iu53ul33ku" path="res://assets/pouring_milk/20260415_102901344_iOS.png" id="15_ll4ca"]
+[ext_resource type="Texture2D" uid="uid://cfb2sp80cvndg" path="res://assets/pouring_milk/20260415_102901880_iOS.png" id="16_a2kcs"]
+[ext_resource type="Texture2D" uid="uid://c5rpcyh6a86my" path="res://assets/pouring_milk/20260415_102902344_iOS.png" id="17_e65kj"]
+[ext_resource type="Script" uid="uid://3r4id8ld85cv" path="res://scenes/grated_carrots.gd" id="18_hg527"]
+[ext_resource type="Texture2D" uid="uid://uxexma7en3le" path="res://assets/pouring_milk/20260415_102902815_iOS.png" id="18_tdxil"]
+[ext_resource type="Texture2D" uid="uid://14itiv2lr84i" path="res://scenes/game/mango_shrikand/sugar.png" id="19_b4i1l"]
+[ext_resource type="Texture2D" uid="uid://rkmp04bxe5go" path="res://assets/pouring_milk/20260415_102903295_iOS.png" id="19_l2ipp"]
+[ext_resource type="Texture2D" uid="uid://bxmoadqjtfqpp" path="res://scenes/game/mango_shrikand/Small_sugar.png" id="20_ghu5u"]
+[ext_resource type="Texture2D" uid="uid://hmqv0e2rnpv5" path="res://assets/pouring_milk/20260415_102903788_iOS.png" id="20_vu8s6"]
+[ext_resource type="Texture2D" uid="uid://bvmpckttw2pdl" path="res://assets/pouring_milk/20260415_102904300_iOS.png" id="21_50ih2"]
+[ext_resource type="Script" uid="uid://bdwo6vidokp7n" path="res://scenes/small_sugar.gd" id="21_kffoi"]
+[ext_resource type="Texture2D" uid="uid://bd6snqdq77que" path="res://assets/pouring_milk/20260415_102904830_iOS.png" id="22_tsaj3"]
+[ext_resource type="Texture2D" uid="uid://dthofbemrul45" path="res://scenes/game/gajar_halwa/small_cradomom.png" id="22_xt2t5"]
+[ext_resource type="Texture2D" uid="uid://lav6qeicptw3" path="res://assets/pouring_milk/20260415_102905410_iOS.png" id="23_4g1xg"]
+[ext_resource type="Script" uid="uid://ci2r8adg0fkto" path="res://scenes/small_cradomom.gd" id="23_wmte1"]
+[ext_resource type="Texture2D" uid="uid://dmwnwda665o37" path="res://assets/pouring_milk/20260415_102906006_iOS.png" id="24_m3m7y"]
+[ext_resource type="Texture2D" uid="uid://6g0omma1kxff" path="res://scenes/game/tomato_shak/empty.png" id="24_tbhoy"]
+[ext_resource type="Texture2D" uid="uid://c7wfalo1phpib" path="res://assets/milky_carrots/20260415_104917472_iOS.png" id="25_l2ipp"]
+[ext_resource type="Texture2D" uid="uid://byfmr32i4cs75" path="res://scenes/game/gajar_halwa/cardomom_powder.png" id="25_xxhw8"]
+[ext_resource type="Texture2D" uid="uid://c3cbbjvltkwu1" path="res://assets/milky_carrots/20260415_104918338_iOS.png" id="26_vu8s6"]
+[ext_resource type="Texture2D" uid="uid://nwt5p54nywws" path="res://scenes/game/mango_shrikand/crushed_nuts.png" id="26_ybla6"]
+[ext_resource type="Script" uid="uid://bi44vt32uif38" path="res://scenes/crushed_nuts.gd" id="27_1k8pe"]
+[ext_resource type="Texture2D" uid="uid://b1l57748f68j2" path="res://assets/milky_carrots/20260415_104919122_iOS.png" id="27_50ih2"]
+[ext_resource type="Texture2D" uid="uid://cblxpnfddei6g" path="res://assets/milky_carrots/20260415_104920021_iOS.png" id="28_tsaj3"]
+[ext_resource type="Texture2D" uid="uid://dqsst76ococpw" path="res://assets/happy_ba/1.png" id="29_50ih2"]
+[ext_resource type="Texture2D" uid="uid://swwa5t3r0knx" path="res://assets/happy_ba/2.png" id="30_tsaj3"]
+[ext_resource type="Texture2D" uid="uid://tx2alwyfsy8l" path="res://assets/Ghost.png" id="35_msjai"]
+[ext_resource type="Texture2D" uid="uid://cgtj75h7pjaii" path="res://assets/reduced_carrots/20260415_154816391_iOS.png" id="42_wmte1"]
+[ext_resource type="Texture2D" uid="uid://dnkk1641thlgu" path="res://assets/reduced_carrots/20260415_154817035_iOS.png" id="43_tbhoy"]
+[ext_resource type="Texture2D" uid="uid://bh20ai3fy3an4" path="res://assets/reduced_carrots/20260415_154817592_iOS.png" id="44_xxhw8"]
+[ext_resource type="Texture2D" uid="uid://bw77hggwk5plw" path="res://assets/reduced_carrots/20260415_154818160_iOS.png" id="45_ybla6"]
+[ext_resource type="Texture2D" uid="uid://cpsdprdu0vfjb" path="res://assets/finished_halwa/20260415_162340275_iOS.png" id="49_xxhw8"]
+[ext_resource type="Texture2D" uid="uid://d2r87ohu843sh" path="res://assets/finished_halwa/20260415_162340967_iOS.png" id="50_ybla6"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_xl21k"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_4jj35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_tqafl")
+}],
+"loop": true,
+"name": &"gas_and_fire",
+"speed": 6.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_h6evt"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_5eycr"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_nqnl7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_odm7w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_fh082")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_i5jm6")
+}],
+"loop": true,
+"name": &"bubbling",
+"speed": 7.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_xl21k"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_a1kdx"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("15_ll4ca")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_a2kcs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_e65kj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_tdxil")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_l2ipp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_vu8s6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_50ih2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_tsaj3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_4g1xg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_m3m7y")
+}],
+"loop": false,
+"name": &"pouring_milk",
+"speed": 9.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_msjai"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_4g1xg"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("25_l2ipp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_vu8s6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_50ih2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_tsaj3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_l2ipp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_vu8s6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_50ih2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_tsaj3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_l2ipp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_vu8s6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_50ih2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_tsaj3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_l2ipp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_vu8s6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_50ih2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_tsaj3")
+}],
+"loop": false,
+"name": &"milky_carrots",
+"speed": 8.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_m3m7y"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_b4i1l"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("42_wmte1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_tbhoy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_xxhw8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_ybla6")
+}],
+"loop": true,
+"name": &"reduced_carrots",
+"speed": 8.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ghu5u"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_1k8pe"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("49_xxhw8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_ybla6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_xxhw8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_ybla6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_xxhw8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_ybla6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_xxhw8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_ybla6")
+}],
+"loop": false,
+"name": &"finished_halwa",
+"speed": 6.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_hv1ph"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_m3m7y"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("29_50ih2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_tsaj3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_50ih2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_tsaj3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_50ih2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_tsaj3")
+}],
+"loop": false,
+"name": &"happy_ba",
+"speed": 6.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_a1kdx"]
+
+[sub_resource type="Animation" id="Animation_g4q2h"]
+length = 0.001
+tracks/0/type = "bezier"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position:x")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"handle_modes": PackedInt32Array(0),
+"points": PackedFloat32Array(322.00003, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0)
+}
+tracks/1/type = "bezier"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:position:y")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"handle_modes": PackedInt32Array(0),
+"points": PackedFloat32Array(585.00006, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0)
+}
+tracks/2/type = "bezier"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath(".:rotation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"handle_modes": PackedInt32Array(0),
+"points": PackedFloat32Array(0, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0)
+}
+
+[sub_resource type="Animation" id="Animation_r8ui7"]
+resource_name = "wrong_order"
+length = 5.0
+tracks/0/type = "bezier"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position:x")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"handle_modes": PackedInt32Array(2, 0, 2, 0),
+"points": PackedFloat32Array(1256, -0.25, 0, 0.25, 0, 1078, -0.49833333, 29.666666, 0, 0, 1059, -0.1555556, -9.439397, 0.3333333, 20.22727, 1256, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0.01, 2.0666666, 3.0000002, 5)
+}
+tracks/1/type = "bezier"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:position:y")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"handle_modes": PackedInt32Array(2, 0, 2, 0),
+"points": PackedFloat32Array(2, -0.25, 0, 0.25, 0, 101.99997, -0.49833333, -16.666662, 0, 0, 112.000015, -0.1555556, 5.30303, 0.3333333, -11.363631, 2, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0.01, 2.0666666, 3.0000002, 5)
+}
+tracks/2/type = "bezier"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath(".:rotation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"handle_modes": PackedInt32Array(2, 0, 2, 0),
+"points": PackedFloat32Array(-0.3700098, -0.25, 0, 0.25, 0, -0.3700098, -0.49833333, 0, 0, 0, -0.3700098, -0.1555556, 0, 0.3333333, 0, -0.3700098, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0.01, 2.0666666, 3.0000002, 5)
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_n8rak"]
+_data = {
+&"RESET": SubResource("Animation_g4q2h"),
+&"wrong_order": SubResource("Animation_r8ui7")
+}
+
+[node name="gajar_halwa" type="Node2D" unique_id=1625928341]
+script = ExtResource("1_a1kdx")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=683784664]
+offset_right = 1153.0
+offset_bottom = 649.0
+texture = ExtResource("1_s18jf")
+expand_mode = 1
+metadata/_edit_lock_ = true
+
+[node name="gas_and_fire" type="Area2D" parent="." unique_id=591337841]
+
+[node name="gas_and_fire" type="AnimatedSprite2D" parent="gas_and_fire" unique_id=2139389852]
+position = Vector2(774.43, 248.96)
+scale = Vector2(0.10335305, 0.10238613)
+sprite_frames = SubResource("SpriteFrames_xl21k")
+animation = &"gas_and_fire"
+frame = 1
+frame_progress = 0.1023376
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="gas_and_fire" unique_id=125623121]
+shape = SubResource("CircleShape2D_h6evt")
+
+[node name="gas_and_fire2" type="Area2D" parent="." unique_id=916481977]
+
+[node name="gas_and_fire2" type="AnimatedSprite2D" parent="gas_and_fire2" unique_id=1431628782]
+position = Vector2(382.00006, 247)
+scale = Vector2(0.10335305, 0.10238613)
+sprite_frames = SubResource("SpriteFrames_xl21k")
+animation = &"gas_and_fire"
+frame = 1
+frame_progress = 0.1023376
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="gas_and_fire2" unique_id=1801664515]
+shape = SubResource("CircleShape2D_h6evt")
+
+[node name="BluePot" type="Sprite2D" parent="." unique_id=2079237456]
+position = Vector2(872, 201)
+scale = Vector2(0.08455671, 0.08135961)
+texture = ExtResource("7_odm7w")
+
+[node name="BluePot2" type="Sprite2D" parent="." unique_id=262151089]
+position = Vector2(872, 201)
+scale = Vector2(0.08455671, 0.08135961)
+texture = ExtResource("7_odm7w")
+
+[node name="BackOfGhee" type="Sprite2D" parent="." unique_id=508758926]
+position = Vector2(300.25, 231.12497)
+scale = Vector2(0.03826967, 0.030223237)
+texture = ExtResource("4_vbaqd")
+metadata/_edit_lock_ = true
+
+[node name="GheeSpoon" type="Sprite2D" parent="." unique_id=1987203227]
+position = Vector2(308.25, 215.12498)
+scale = Vector2(0.03100057, 0.026254782)
+texture = ExtResource("5_ph3x2")
+script = ExtResource("7_msjai")
+
+[node name="FrontOfGhee" type="Sprite2D" parent="." unique_id=662045357]
+position = Vector2(299.25003, 232.12497)
+scale = Vector2(0.035917904, 0.032604318)
+texture = ExtResource("6_nqnl7")
+metadata/_edit_lock_ = true
+
+[node name="bubbling" type="Area2D" parent="." unique_id=976405632]
+
+[node name="bubbling" type="AnimatedSprite2D" parent="bubbling" unique_id=1870148903]
+position = Vector2(871, 174)
+scale = Vector2(0.034635104, 0.026405964)
+sprite_frames = SubResource("SpriteFrames_5eycr")
+animation = &"bubbling"
+frame = 2
+frame_progress = 0.5655456
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="bubbling" unique_id=1087585700]
+shape = SubResource("CircleShape2D_xl21k")
+
+[node name="Milk" type="Sprite2D" parent="." unique_id=159509754]
+position = Vector2(451, 553)
+scale = Vector2(0.03189136, 0.031873614)
+texture = ExtResource("8_fh082")
+script = ExtResource("11_n8rak")
+
+[node name="EmptyBowl" type="Sprite2D" parent="." unique_id=112060296]
+position = Vector2(175.00002, 452)
+scale = Vector2(0.07069556, 0.063948795)
+texture = ExtResource("9_i5jm6")
+metadata/_edit_lock_ = true
+
+[node name="GratedCarrots" type="Sprite2D" parent="." unique_id=1347468638]
+position = Vector2(181.99998, 455)
+scale = Vector2(0.0359179, 0.039356977)
+texture = ExtResource("10_5eycr")
+script = ExtResource("18_hg527")
+
+[node name="Sugar" type="Sprite2D" parent="." unique_id=1553990314]
+position = Vector2(802.00006, 517)
+scale = Vector2(0.047890536, 0.04671442)
+texture = ExtResource("19_b4i1l")
+metadata/_edit_lock_ = true
+
+[node name="SmallSugar" type="Sprite2D" parent="." unique_id=2009833057]
+position = Vector2(790.5, 539.6328)
+scale = Vector2(0.056870017, 0.043687634)
+texture = ExtResource("20_ghu5u")
+script = ExtResource("21_kffoi")
+
+[node name="SmallCradomom" type="Sprite2D" parent="." unique_id=1790283933]
+position = Vector2(896, 243)
+scale = Vector2(0.008124284, 0.00924715)
+texture = ExtResource("22_xt2t5")
+script = ExtResource("23_wmte1")
+
+[node name="Empty" type="Sprite2D" parent="." unique_id=623959054]
+position = Vector2(1001, 381)
+scale = Vector2(0.023588905, 0.023231205)
+texture = ExtResource("24_tbhoy")
+metadata/_edit_lock_ = true
+
+[node name="CardomomPowder" type="Sprite2D" parent="." unique_id=1104947263]
+position = Vector2(892, 233)
+scale = Vector2(0.022662422, 0.022928804)
+texture = ExtResource("25_xxhw8")
+metadata/_edit_lock_ = true
+
+[node name="CrushedNuts" type="Sprite2D" parent="." unique_id=209677713]
+position = Vector2(995, 379.5)
+scale = Vector2(0.02166477, 0.022777662)
+texture = ExtResource("26_ybla6")
+script = ExtResource("27_1k8pe")
+
+[node name="pouring_milk" type="Area2D" parent="." unique_id=1153167664]
+
+[node name="pouring_milk" type="AnimatedSprite2D" parent="pouring_milk" unique_id=1865519593]
+position = Vector2(862, 81)
+scale = Vector2(0.051667664, 0.05127494)
+sprite_frames = SubResource("SpriteFrames_a1kdx")
+animation = &"pouring_milk"
+frame = 9
+frame_progress = 1.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="pouring_milk" unique_id=210515467]
+shape = SubResource("CircleShape2D_msjai")
+
+[node name="milky_carrots" type="Area2D" parent="." unique_id=1475668588]
+
+[node name="milky_carrots" type="AnimatedSprite2D" parent="milky_carrots" unique_id=350995665]
+position = Vector2(873, 167.00002)
+rotation = 0.04363323
+scale = Vector2(0.039229758, 0.037125178)
+sprite_frames = SubResource("SpriteFrames_4g1xg")
+animation = &"milky_carrots"
+frame = 11
+frame_progress = 1.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="milky_carrots" unique_id=1060703922]
+shape = SubResource("CircleShape2D_m3m7y")
+
+[node name="reduced_carrots" type="Area2D" parent="." unique_id=1979039503]
+position = Vector2(847.12, 166.58)
+rotation = 0.04363323
+scale = Vector2(0.039229754, 0.037125178)
+
+[node name="reduced_carrots" type="AnimatedSprite2D" parent="reduced_carrots" unique_id=1860924178]
+position = Vector2(-9280.497, 855.84863)
+rotation = -0.02617994
+scale = Vector2(1, 1.0831712)
+sprite_frames = SubResource("SpriteFrames_b4i1l")
+animation = &"reduced_carrots"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="reduced_carrots" unique_id=939116]
+position = Vector2(-31.39115, -68.11261)
+scale = Vector2(0.9999999, 1)
+shape = SubResource("CircleShape2D_ghu5u")
+
+[node name="finished_halwa" type="Area2D" parent="." unique_id=1999894310]
+
+[node name="finished_halwa" type="AnimatedSprite2D" parent="finished_halwa" unique_id=32471094]
+position = Vector2(483.75, 120.99999)
+scale = Vector2(0.041975483, 0.04520258)
+sprite_frames = SubResource("SpriteFrames_1k8pe")
+animation = &"finished_halwa"
+frame = 7
+frame_progress = 1.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="finished_halwa" unique_id=1521298037]
+shape = SubResource("CircleShape2D_hv1ph")
+
+[node name="Happy_Ba" type="Area2D" parent="." unique_id=1717295570]
+
+[node name="happy_ba" type="AnimatedSprite2D" parent="Happy_Ba" unique_id=1439386378]
+position = Vector2(551, 340)
+scale = Vector2(0.15607192, 0.1560719)
+sprite_frames = SubResource("SpriteFrames_m3m7y")
+animation = &"happy_ba"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Happy_Ba" unique_id=1932155073]
+shape = SubResource("CircleShape2D_a1kdx")
+
+[node name="Wrong_Order" type="Sprite2D" parent="." unique_id=932345353]
+position = Vector2(322.00003, 585.00006)
+scale = Vector2(0.059578065, 0.060860883)
+texture = ExtResource("35_msjai")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Wrong_Order" unique_id=1471052454]
+libraries/ = SubResource("AnimationLibrary_n8rak")
+
+[connection signal="animation_finished" from="bubbling/bubbling" to="." method="_on_bubbling_animation_finished"]
+[connection signal="animation_finished" from="pouring_milk/pouring_milk" to="." method="_on_pouring_milk_animation_finished"]
+[connection signal="animation_finished" from="milky_carrots/milky_carrots" to="." method="_on_milky_carrots_animation_finished"]
+[connection signal="animation_finished" from="reduced_carrots/reduced_carrots" to="." method="_on_reduced_carrots_animation_finished"]
+[connection signal="animation_finished" from="Happy_Ba/happy_ba" to="." method="_on_happy_ba_animation_finished"]

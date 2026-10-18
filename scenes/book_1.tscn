@@ -1,0 +1,57 @@
+[gd_scene format=3 uid="uid://dxmdhstjwiqkx"]
+
+[ext_resource type="Script" uid="uid://6afnjcfs8fqe" path="res://scripts/book_1.gd" id="1_vvsot"]
+[ext_resource type="Texture2D" uid="uid://bsnbqea8wc315" path="res://assets/wood_simple.jpg" id="2_8xv0l"]
+[ext_resource type="Texture2D" uid="uid://db2mgmllcys5i" path="res://assets/book/Aubergine.png" id="3_e5440"]
+[ext_resource type="Texture2D" uid="uid://v4wmsopjxcw8" path="res://assets/buttons/Next.png" id="4_6yjwi"]
+[ext_resource type="Texture2D" uid="uid://dr6l3sytm4yjx" path="res://assets/buttons/Back.png" id="5_6yjwi"]
+[ext_resource type="AudioStream" uid="uid://blup1puf50e4b" path="res://assets/sounds/bg_cooking.ogg" id="6_m0342"]
+
+[node name="book_1" type="Node2D" unique_id=856931246]
+script = ExtResource("1_vvsot")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=445051247]
+offset_right = 1152.0
+offset_bottom = 648.0
+texture = ExtResource("2_8xv0l")
+expand_mode = 1
+metadata/_edit_lock_ = true
+
+[node name="Aubergine" type="Sprite2D" parent="." unique_id=1477904923]
+position = Vector2(576, 321)
+scale = Vector2(0.09279883, 0.09164767)
+texture = ExtResource("3_e5440")
+
+[node name="button_manager" type="Control" parent="." unique_id=2081248961]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="next" type="Button" parent="button_manager" unique_id=1960531383]
+layout_mode = 0
+offset_left = 896.0
+offset_top = 490.0
+offset_right = 1127.0
+offset_bottom = 661.0
+icon = ExtResource("4_6yjwi")
+flat = true
+expand_icon = true
+
+[node name="back" type="Button" parent="button_manager" unique_id=632668149]
+layout_mode = 0
+offset_left = 32.0
+offset_top = 488.0
+offset_right = 263.0
+offset_bottom = 659.0
+icon = ExtResource("5_6yjwi")
+flat = true
+expand_icon = true
+
+[node name="cut_scene" type="AudioStreamPlayer" parent="." unique_id=911373013]
+stream = ExtResource("6_m0342")
+autoplay = true
+parameters/looping = true
+
+[connection signal="pressed" from="button_manager/next" to="." method="_on_next_pressed"]
+[connection signal="pressed" from="button_manager/back" to="." method="_on_back_pressed"]

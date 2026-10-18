@@ -1,0 +1,167 @@
+[gd_scene format=3 uid="uid://cjtmfk1vj5e1e"]
+
+[ext_resource type="Script" uid="uid://bibryiujavamx" path="res://scripts/paletta_pt_1.tscn.gd" id="1_twcj1"]
+[ext_resource type="Texture2D" uid="uid://bsnbqea8wc315" path="res://assets/wood_simple.jpg" id="2_u2b7i"]
+[ext_resource type="Texture2D" uid="uid://dvy362jxdh65o" path="res://assets/paletta/water_bowl.png" id="3_jbce0"]
+[ext_resource type="Texture2D" uid="uid://yimk42uleo6v" path="res://assets/paletta/chopping_board.png" id="4_ugwo3"]
+[ext_resource type="Texture2D" uid="uid://dfnkwodysr5tq" path="res://assets/paletta/knife.png" id="5_p54ar"]
+[ext_resource type="Texture2D" uid="uid://dood173c4jwfg" path="res://assets/paletta/chopped_veg.png" id="6_qdrqu"]
+[ext_resource type="Script" uid="uid://c7tgsdd2bta8g" path="res://scripts/chopped_veg.gd" id="7_qdrqu"]
+[ext_resource type="Texture2D" uid="uid://bxj3wnvwsjetg" path="res://assets/paletta/potato.png" id="8_q30jf"]
+[ext_resource type="Script" uid="uid://basohlps4c63v" path="res://scripts/potato.gd" id="9_svla6"]
+[ext_resource type="Texture2D" uid="uid://d1kjwkg8h03nh" path="res://assets/paletta/aubergine.png" id="10_svla6"]
+[ext_resource type="Script" uid="uid://daul2w47b5rm4" path="res://scripts/aubergine.gd" id="11_2fh8m"]
+[ext_resource type="Texture2D" uid="uid://dicvnlaw7qr14" path="res://assets/paletta/chopped_aubergine.png" id="12_57s1l"]
+[ext_resource type="Texture2D" uid="uid://dvxiwqkawy438" path="res://assets/paletta/chopped_potato.png" id="13_2fh8m"]
+[ext_resource type="Texture2D" uid="uid://b7mdwqqlvgpia" path="res://assets/paletta/veg.png" id="14_656sv"]
+[ext_resource type="Texture2D" uid="uid://pw0vxdxklt6q" path="res://assets/sprite_frames/happy_ba/1.png" id="15_4s8du"]
+[ext_resource type="Texture2D" uid="uid://mcntu3oicl47" path="res://assets/sprite_frames/happy_ba/2.png" id="16_0of6u"]
+[ext_resource type="Texture2D" uid="uid://dctx33y3h1kcf" path="res://assets/buttons/recipe_book.png" id="17_u2b7i"]
+[ext_resource type="AudioStream" uid="uid://dg2kovon12gd5" path="res://assets/sounds/fun.ogg" id="18_u2b7i"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_lcrqk"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_qmu7c"]
+radius = 1353.7538
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_fekdw"]
+radius = 1375.0171
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_yocef"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("15_4s8du")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_0of6u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_4s8du")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_0of6u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_4s8du")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_0of6u")
+}],
+"loop": false,
+"name": &"happy_ba",
+"speed": 6.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_74471"]
+
+[node name="paletta pt1" type="Node2D" unique_id=1515169644]
+script = ExtResource("1_twcj1")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=801808204]
+offset_right = 1156.0
+offset_bottom = 653.0
+texture = ExtResource("2_u2b7i")
+expand_mode = 1
+metadata/_edit_use_anchors_ = true
+metadata/_edit_lock_ = true
+
+[node name="WaterBowl" type="Sprite2D" parent="." unique_id=1440719305]
+position = Vector2(801, 151)
+scale = Vector2(0.07188141, 0.074271046)
+texture = ExtResource("3_jbce0")
+
+[node name="ChoppingBoard" type="Sprite2D" parent="." unique_id=815260899]
+position = Vector2(562, 468)
+scale = Vector2(0.08623147, 0.08158637)
+texture = ExtResource("4_ugwo3")
+
+[node name="Knife" type="Sprite2D" parent="." unique_id=473449572]
+position = Vector2(813.00006, 466.99997)
+rotation = 0.7941248
+scale = Vector2(0.031436764, 0.03137859)
+texture = ExtResource("5_p54ar")
+
+[node name="ChoppedVeg" type="Sprite2D" parent="." unique_id=204186582]
+position = Vector2(573, 461)
+scale = Vector2(0.032724313, 0.031445276)
+texture = ExtResource("6_qdrqu")
+script = ExtResource("7_qdrqu")
+
+[node name="Area2D" type="Area2D" parent="ChoppedVeg" unique_id=1835899926]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ChoppedVeg/Area2D" unique_id=842186467]
+shape = SubResource("CircleShape2D_lcrqk")
+
+[node name="Potato" type="Sprite2D" parent="." unique_id=1083196496]
+position = Vector2(149, 504)
+scale = Vector2(0.029183345, 0.032377545)
+texture = ExtResource("8_q30jf")
+script = ExtResource("9_svla6")
+
+[node name="Area2D" type="Area2D" parent="Potato" unique_id=329948257]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Potato/Area2D" unique_id=1311218701]
+shape = SubResource("CircleShape2D_qmu7c")
+
+[node name="Aubergine" type="Sprite2D" parent="." unique_id=869007088]
+position = Vector2(164, 289)
+scale = Vector2(0.037842177, 0.038147543)
+texture = ExtResource("10_svla6")
+script = ExtResource("11_2fh8m")
+
+[node name="Area2D" type="Area2D" parent="Aubergine" unique_id=42537842]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Aubergine/Area2D" unique_id=1487435954]
+shape = SubResource("CircleShape2D_fekdw")
+
+[node name="ChoppedAubergine" type="Sprite2D" parent="." unique_id=410063139]
+position = Vector2(573.5, 425)
+scale = Vector2(0.03263969, 0.031311154)
+texture = ExtResource("12_57s1l")
+
+[node name="ChoppedPotato" type="Sprite2D" parent="." unique_id=572733394]
+position = Vector2(573.5, 501.5)
+scale = Vector2(0.032779727, 0.031565655)
+texture = ExtResource("13_2fh8m")
+
+[node name="Veg" type="Sprite2D" parent="." unique_id=1411660659]
+position = Vector2(801.99994, 119)
+scale = Vector2(0.046393957, 0.041675065)
+texture = ExtResource("14_656sv")
+
+[node name="Happy_Ba" type="Area2D" parent="." unique_id=256334840]
+
+[node name="happy_ba" type="AnimatedSprite2D" parent="Happy_Ba" unique_id=631688902]
+position = Vector2(551, 340)
+scale = Vector2(0.15607192, 0.1560719)
+sprite_frames = SubResource("SpriteFrames_yocef")
+animation = &"happy_ba"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Happy_Ba" unique_id=658450577]
+shape = SubResource("CircleShape2D_74471")
+
+[node name="button_manager" type="Control" parent="." unique_id=1137981104]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="back" type="Button" parent="button_manager" unique_id=1251895511]
+layout_mode = 0
+offset_left = -4.0
+offset_top = -14.0
+offset_right = 136.0
+offset_bottom = 110.0
+icon = ExtResource("17_u2b7i")
+flat = true
+expand_icon = true
+
+[node name="cooking" type="AudioStreamPlayer" parent="." unique_id=2032792616]
+stream = ExtResource("18_u2b7i")
+volume_db = -6.5
+autoplay = true
+parameters/looping = true
+
+[connection signal="animation_finished" from="Happy_Ba/happy_ba" to="." method="_on_happy_ba_animation_finished"]
+[connection signal="pressed" from="button_manager/back" to="." method="_on_back_pressed"]

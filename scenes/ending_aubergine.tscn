@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://ca2odo3h5sfsp"]
+
+[ext_resource type="Script" uid="uid://y02g7wiivqrb" path="res://scripts/ending_aubergine.gd" id="1_ntx02"]
+[ext_resource type="VideoStream" uid="uid://cr1sjs8umuqic" path="res://assets/cut_scenes/ending_aubergine.ogv" id="2_hsomj"]
+[ext_resource type="AudioStream" uid="uid://dh3alrhashsg4" path="res://assets/sounds/Talking.ogg" id="3_hsomj"]
+
+[node name="ending_aubergine" type="Control" unique_id=1198311369]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ntx02")
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="." unique_id=868356636]
+layout_mode = 0
+offset_right = 1152.0
+offset_bottom = 648.0
+stream = ExtResource("2_hsomj")
+autoplay = true
+expand = true
+
+[node name="talking" type="AudioStreamPlayer" parent="." unique_id=887900003]
+stream = ExtResource("3_hsomj")
+autoplay = true
+parameters/looping = true
+
+[connection signal="finished" from="VideoStreamPlayer" to="." method="_on_video_stream_player_finished"]

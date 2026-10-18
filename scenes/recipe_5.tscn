@@ -1,0 +1,38 @@
+[gd_scene format=3 uid="uid://t4ekabyn1mxq"]
+
+[ext_resource type="Script" uid="uid://bej1oam0doda6" path="res://scripts/recipe_5.gd" id="1_glelq"]
+[ext_resource type="Texture2D" uid="uid://crf88w3qenfh8" path="res://assets/recipe_page_main_menu/carrot_recipe.JPG" id="1_ns75b"]
+[ext_resource type="Texture2D" uid="uid://dr6l3sytm4yjx" path="res://assets/buttons/Back.png" id="2_glelq"]
+[ext_resource type="AudioStream" uid="uid://lvq5ja1atfq3" path="res://assets/sounds/calm_flute.ogg" id="4_6p7ll"]
+
+[node name="recipe_5" type="Node2D" unique_id=1239337892]
+script = ExtResource("1_glelq")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=2125639006]
+offset_top = -40.0
+offset_right = 1152.0
+offset_bottom = 688.0
+texture = ExtResource("1_ns75b")
+expand_mode = 1
+
+[node name="button_manager" type="Control" parent="TextureRect" unique_id=1096207726]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="back" type="Button" parent="TextureRect/button_manager" unique_id=698781827]
+layout_mode = 0
+offset_left = 32.0
+offset_top = 520.0
+offset_right = 263.0
+offset_bottom = 691.0
+icon = ExtResource("2_glelq")
+flat = true
+expand_icon = true
+
+[node name="flute" type="AudioStreamPlayer" parent="." unique_id=1389499545]
+stream = ExtResource("4_6p7ll")
+autoplay = true
+parameters/looping = true
+
+[connection signal="pressed" from="TextureRect/button_manager/back" to="." method="_on_back_pressed"]

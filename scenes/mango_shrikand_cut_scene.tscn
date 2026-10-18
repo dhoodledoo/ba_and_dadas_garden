@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://b1382baclpjiv"]
+
+[ext_resource type="Script" uid="uid://dskm5u2hk2ujt" path="res://scripts/mango_shrikand_cut_scene.gd" id="1_1imlh"]
+[ext_resource type="VideoStream" uid="uid://4r50dxjnthjb" path="res://assets/cut_scenes/mango_shrikand_cut_scene.ogv" id="2_xs0nj"]
+[ext_resource type="AudioStream" uid="uid://blup1puf50e4b" path="res://assets/sounds/bg_cooking.ogg" id="3_xs0nj"]
+
+[node name="mango_shrikand_cut_scene" type="Control" unique_id=1602868637]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_1imlh")
+metadata/_edit_lock_ = true
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="." unique_id=1450745703]
+layout_mode = 0
+offset_right = 1152.0
+offset_bottom = 648.0
+stream = ExtResource("2_xs0nj")
+autoplay = true
+expand = true
+
+[node name="cut_scene" type="AudioStreamPlayer" parent="." unique_id=674489902]
+stream = ExtResource("3_xs0nj")
+autoplay = true
+parameters/looping = true
+
+[connection signal="finished" from="VideoStreamPlayer" to="." method="_on_video_stream_player_finished"]
